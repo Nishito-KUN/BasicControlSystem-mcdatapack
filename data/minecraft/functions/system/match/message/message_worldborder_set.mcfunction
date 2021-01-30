@@ -1,0 +1,1 @@
+tellraw @a ["",{"text":"[system]","color":"aqua"},{"text":"エリアの収縮が開始しました"}]

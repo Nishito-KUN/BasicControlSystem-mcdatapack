@@ -1,0 +1,1 @@
+tellraw @a ["",{"text":"[system]","color":"aqua"},{"text":"30秒後に収縮が開始します"}]
