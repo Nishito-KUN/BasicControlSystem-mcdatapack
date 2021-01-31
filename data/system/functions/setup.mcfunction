@@ -11,6 +11,7 @@ scoreboard players set center_z dummy 0
 scoreboard players set end dummy 1
 scoreboard players set game dummy 1
 scoreboard players set players dummy 0
+scoreboard players set situation dummy 0
 scoreboard players set start dummy 50
 scoreboard players set timer_m dummy 0
 scoreboard players set timer_s dummy 0
@@ -45,6 +46,7 @@ tellraw @s ["",{"text":"[system]","color":"gray"},{"text":" オブジェクト [
 tellraw @s ["",{"text":"[system]","color":"gray"},{"text":" オブジェクト [dummy] に [end        1] を設定しました"}]
 tellraw @s ["",{"text":"[system]","color":"gray"},{"text":" オブジェクト [dummy] に [game       1] を設定しました"}]
 tellraw @s ["",{"text":"[system]","color":"gray"},{"text":" オブジェクト [dummy] に [players   0] を設定しました"}]
+tellraw @s ["",{"text":"[system]","color":"gray"},{"text":" オブジェクト [dummy] に [situation  0] を設定しました"}]
 tellraw @s ["",{"text":"[system]","color":"gray"},{"text":" オブジェクト [dummy] に [start     50] を設定しました"}]
 tellraw @s ["",{"text":"[system]","color":"gray"},{"text":" オブジェクト [dummy] に [timer_m    0] を設定しました"}]
 tellraw @s ["",{"text":"[system]","color":"gray"},{"text":" オブジェクト [dummy] に [timer_s    0] を設定しました"}]
@@ -64,4 +66,4 @@ tellraw @s ["",{"text":"[system]","color":"gray"},{"text":" worldborder の dama
 
 tellraw @s ["",{"text":"[system]","color":"gray"},{"text":" worldspawn を [448 30 448] に設定しました"}]
 
-tellraw @s ["",{"text":"[system]","color":"gray"},{"text":" セットアップが完了しました。"},{"text":"datapacks:FIGHT 3.0_pack/memo","color":"yellow"},{"text":"のforceloadを実行してください"}]
+tellraw @s ["",{"text":"[system]","color":"gray"},{"text":" セットアップが完了しました。"},{"text":"datapacks:fight_3.0_pack/memo","color":"yellow"},{"text":"のforceloadを実行してください"}]

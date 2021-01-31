@@ -1,12 +1,12 @@
 execute if score game dummy matches 2 run gamemode spectator @a[scores={join=2}]
 execute if score game dummy matches 2 run clear @a[scores={join=2}]
 execute if score game dummy matches 2 run effect clear @a[scores={join=2}]
-execute if score game dummy matches 2 run spreadplayers 448.0 448.0 50 400 false @a[scores={join=2}]
+execute if score game dummy matches 2 run spreadplayers 448.0 448.0 50 500 false @a[scores={join=2}]
 
 execute if score game dummy matches 2 run clear @a[scores={join=4}]
 execute if score game dummy matches 2 run effect clear @a[scores={join=4}]
 execute if score game dummy matches 2 run team join game @a[scores={join=4}]
-execute if score game dummy matches 2 run spreadplayers 448.0 448.0 50 400 false @a[scores={join=4}]
+execute if score game dummy matches 2 run spreadplayers 448.0 448.0 50 500 false @a[scores={join=4}]
 execute if score game dummy matches 2 run title @a[scores={join=4}] times 10 40 10
 execute if score game dummy matches 2 run title @a[scores={join=4}] title {"text":"ＦＩＧＨＴ ！"}
 

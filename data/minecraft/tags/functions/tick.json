@@ -3,6 +3,7 @@
   	"system:timer",
   	"system:join",
   	"system:button",
+  	"system:lobby",
   	"system:register",
   	"system:game_control"
   ]
