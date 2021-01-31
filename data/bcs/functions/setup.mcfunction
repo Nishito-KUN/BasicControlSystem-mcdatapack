@@ -1,43 +1,39 @@
-scoreboard objectives add button trigger
-scoreboard objectives add control dummy
-scoreboard objectives add death deathCount
-scoreboard objectives add battle_royale dummy
-scoreboard objectives add free_for_all dummy
-scoreboard objectives add join minecraft.custom:minecraft.leave_game
+scoreboard objectives add bcs.button trigger
+scoreboard objectives add bcs.control dummy
+scoreboard objectives add bcs.death deathCount
+scoreboard objectives add bcs.join minecraft.custom:minecraft.leave_game
+scoreboard objectives add bcs.settings dummy
 
-scoreboard players set game control 0
-scoreboard players set phase control 0
-scoreboard players set players control 0
-scoreboard players set timer_m control 0
-scoreboard players set timer_s control 0
-scoreboard players set timer_t control 0
+scoreboard players set game bcs.control 0
+scoreboard players set phase bcs.control 0
+scoreboard players set players bcs.control 0
+scoreboard players set return bcs.control 0
+scoreboard players set remove_column bcs.control 0
+scoreboard players set select_column bcs.control 0
+scoreboard players set timer_m bcs.control 0
+scoreboard players set timer_s bcs.control 0
+scoreboard players set timer_t bcs.control 0
 
-scoreboard players set end_players battle_royale 1
-scoreboard players set plugins battle_royale 0
-scoreboard players set start_players battle_royale 30
-scoreboard players set time battle_royale 0
-scoreboard players set weather battle_royale 0
+scoreboard players set battle_royale bcs.settings 0130000
+#01 30 0 0 0 00, end_players, start_players, enable_plugins, time, weather.
 
-scoreboard players set plugins free_for_all 0
-scoreboard players set start_players free_for_all 10
-scoreboard players set time free_for_all 0
-scoreboard players set timer_minute free_for_all 3
-scoreboard players set timer_second free_for_all 0
-scoreboard players set weather free_for_all 0
+scoreboard players set battle_royale bcs.settings 0130000
+#30 0 03 00 0 0,start_players, plugins, timer_m, timer_s, time, weather.
 
-scoreboard objectives setdisplay sidebar control
+scoreboard objectives setdisplay sidebar.team.aqua bcs.control
 
-team add game
-team modify game color aqua
-team modify game nametagVisibility hideForOwnTeam
+team add bcs.admin
+team add bcs.game
 
-worldborder center 448.0 448.0
-worldborder set 1024
-worldborder damage buffer 0
-worldborder damage amount 0.01
-setworldspawn 448 30 448
+team modify bcs.admin collisionRule never
+team modify bcs.admin color aqua
 
-difficulty hard
+team modify bcs.game color gold
+team modify bcs.game nametagVisibility hideForOwnTeam
+
+function bcs:library/general/default_gamerules
+function bcs:library/general/default_worldborder
+function bcs:library/general/default_worldspawn
 
 gamerule doDaylightCycle false
 gamerule doFireTick false
@@ -47,4 +43,11 @@ gamerule mobGriefing false
 gamerule sendCommandFeedback false
 gamerule spectatorsGenerateChunks false
 
-tellraw @s ["",{"text":"[system]","color":"gray"},{"text":" セットアップが完了しました。セットアップの詳細は"},{"text":"datapacks:Basic_control_system/data/system/functions/setup","color":"yellow"},{"text":"から確認できます。"}]
+worldborder center 960.0 960.0
+worldborder set 2048
+worldborder damage buffer 0
+worldborder damage amount 0.01
+
+difficulty hard
+
+execute as @a run function bcs:library/message/tellraw/setup_executed

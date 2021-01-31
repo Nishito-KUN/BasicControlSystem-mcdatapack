@@ -1,0 +1,1 @@
+execute store result score players bcs.control if entity @a[scores={bcs.join=4}]

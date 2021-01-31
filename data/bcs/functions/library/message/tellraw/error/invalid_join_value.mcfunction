@@ -1,0 +1,1 @@
+tellraw @s ["",{"text":"[bcs] ","color":"red"},{"score":{"name":"@s","objective":"bcs.join"}},{"text":"は無効な値です"}]

@@ -1,0 +1,1 @@
+tellraw @s ["",{"text":"[bcs]","color":"gray"},{"text":" 既に観戦しています"}]

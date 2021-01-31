@@ -1,0 +1,1 @@
+tellraw @s ["",{"text":"[bcs]","color":"gray"},{"text":" ゲーム中は参加できません"}]

@@ -1,2 +1,2 @@
-scoreboard players set @a[tag=!registered] join 1
-tag @a[tag=!registered] add registered
+scoreboard players set @s bcs.join 1
+tag @s add bcs.registered
