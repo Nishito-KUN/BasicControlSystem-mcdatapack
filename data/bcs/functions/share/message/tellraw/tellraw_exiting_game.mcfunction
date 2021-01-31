@@ -1,1 +1,0 @@
-tellraw @s ["",{"text":"[system]","color":"aqua"},{"text":" 現在ゲーム終了中です。しばらくお待ちください"}]

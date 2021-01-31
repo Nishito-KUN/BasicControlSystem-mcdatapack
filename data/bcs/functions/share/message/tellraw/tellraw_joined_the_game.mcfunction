@@ -1,1 +1,0 @@
-tellraw @s ["",{"text":"[system]","color":"aqua"},{"text":" ゲームに参加しました"}]

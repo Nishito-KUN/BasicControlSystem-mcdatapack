@@ -1,2 +1,0 @@
-execute at @e[type=minecraft:armor_stand,name=worldborder_center_objective] run particle minecraft:dust 0 1 1 5 ~ 100 ~ 0 30 0 0 5 force @a[scores={join=2..5}]
-execute as @a[scores={join=2..5}] positioned as @e[type=minecraft:armor_stand,name=worldborder_center_objective] run function system:game_battle_royale/other/particle/relay_particle_direction

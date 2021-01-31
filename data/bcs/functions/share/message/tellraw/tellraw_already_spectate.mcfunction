@@ -1,1 +1,0 @@
-@s ["",{"text":"[system]","color":"aqua"},{"text":" 既に観戦しています"}]

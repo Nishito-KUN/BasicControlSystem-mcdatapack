@@ -1,1 +1,0 @@
-tellraw @s ["",{"text":"[system]","color":"red"},{"text":" "},{"score":{"name":"@s","objective":"button"}},{"text":"は不正な値です"}]
