@@ -1,0 +1,80 @@
+{
+	"pools": [
+		{
+			"rolls": {
+				"min": 0,
+				"max": 1
+			},
+			"entries": [
+				{
+					"type": "loot_table",
+					"name": "system:food/food",
+					"weight": 1
+				}
+			]
+		},
+		{
+			"rolls": {
+				"min": 0,
+				"max": 1
+			},
+			"entries": [
+				{
+					"type": "loot_table",
+					"name": "system:food/food",
+					"weight": 1
+				},
+				{
+					"type": "loot_table",
+					"name": "system:potion/potions",
+					"weight": 1
+				},
+				{
+					"type": "loot_table",
+					"name": "system:splash_potion/splash_potions",
+					"weight": 1
+				},
+				{
+					"type": "loot_table",
+					"name": "system:uncategorized/uncategorized_items",
+					"weight": 1
+				}
+			]
+		},
+		{
+			"rolls": 1,
+			"entries": [
+				{
+					"type": "loot_table",
+					"name": "system:food/food",
+					"weight": 1
+				},
+				{
+					"type": "loot_table",
+					"name": "system:potion/potions",
+					"weight": 1
+				},
+				{
+					"type": "loot_table",
+					"name": "system:splash_potion/splash_potions",
+					"weight": 1
+				},
+				{
+					"type": "loot_table",
+					"name": "system:uncategorized/uncategorized_items",
+					"weight": 1
+				},
+				{
+					"type": "loot_table",
+					"name": "system:armor/armors",
+					"weight": 3
+				},
+				{
+					"type": "loot_table",
+					"name": "system:weapon/weapons",
+					"weight": 3
+				}
+			]
+		}
+	]
+}

@@ -1,0 +1,97 @@
+{
+	"pools": [
+		{
+			"rolls": {
+				"min": 0,
+				"max": 1
+			},
+			"entries": [
+				{
+					"type": "loot_table",
+					"name": "system:plugin/armor/clothes",
+					"weight": 1
+				}
+			]
+		},
+		{
+			"rolls": 1,
+			"entries": [
+				{
+					"type": "loot_table",
+					"name": "system:plugin/armor/helmet/helmets",
+					"weight": 1
+				},
+				{
+					"type": "loot_table",
+					"name": "system:plugin/armor/vest/vests",
+					"weight": 1
+				},
+				{
+					"type": "loot_table",
+					"name": "system:plugin/weapon/melee_weapon/melee_weapons",
+					"weight": 2
+				},
+				{
+					"type": "loot_table",
+					"name": "system:plugin/weapon/throwing_weapon/throwing_weapons",
+					"weight": 2
+				},
+				{
+					"type": "item",
+					"name": "minecraft:air",
+					"weight": 3
+				},
+				{
+					"type": "loot_table",
+					"name": "system:plugin/ammo/ammo",
+					"weight": 3
+				},
+				{
+					"type": "loot_table",
+					"name": "system:plugin/recovery_item/recovery_items",
+					"weight": 3
+				}
+			]
+		},
+		{
+			"rolls": 1,
+			"entries": [
+				{
+					"type": "loot_table",
+					"name": "system:plugin/ammo/ammo",
+					"weight": 1
+				},
+				{
+					"type": "loot_table",
+					"name": "system:plugin/armor/helmet/helmets",
+					"weight": 1
+				},
+				{
+					"type": "loot_table",
+					"name": "system:plugin/armor/vest/vests",
+					"weight": 1
+				},
+				{
+					"type": "loot_table",
+					"name": "system:plugin/recovery_item/recovery_items",
+					"weight": 1
+				},
+				{
+					"type": "loot_table",
+					"name": "system:plugin/weapon/melee_weapon/melee_weapons",
+					"weight": 1
+				},
+				{
+					"type": "loot_table",
+					"name": "system:plugin/weapon/throwing_weapon/throwing_weapons",
+					"weight": 1
+				},
+				{
+					"type": "loot_table",
+					"name": "system:plugin/weapon/gun/guns",
+					"weight": 3
+				}
+			]
+		}
+	]
+}

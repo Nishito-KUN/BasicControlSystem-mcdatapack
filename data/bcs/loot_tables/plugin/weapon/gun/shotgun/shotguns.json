@@ -1,0 +1,24 @@
+{
+	"pools": [
+		{
+			"rolls": 1,
+			"entries": [
+				{
+					"type": "loot_table",
+					"name": "system:plugin/weapon/gun/shotgun/s12k",
+					"weight": 1
+				},
+				{
+					"type": "loot_table",
+					"name": "system:plugin/weapon/gun/shotgun/s686",
+					"weight": 1
+				},
+				{
+					"type": "loot_table",
+					"name": "system:plugin/weapon/gun/shotgun/s1897",
+					"weight": 1
+				}
+			]
+		}
+	]
+}

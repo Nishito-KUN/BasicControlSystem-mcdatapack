@@ -1,0 +1,1 @@
+tellraw @s ["",{"text":"[system]","color":"aqua"},{"text":" ロビーに戻りますか? "},{"text":"ロビーに戻る\n","underlined":true,"clickEvent":{"action":"run_command","value":"/trigger button set 2"}}]

@@ -1,0 +1,3 @@
+title @a[scores={join=0}] actionbar ["",{"text":"(ロビー) ゲームに参加できます "},{"score":{"name":"players","objective":"control"}},{"text":"/"},{"score":{"name":"start_players","objective":"battle_royale"}}]
+title @a[scores={join=2}] actionbar ["",{"text":"(観戦選択中) プレイヤーを待っています "},{"score":{"name":"players","objective":"control"}},{"text":"/"},{"score":{"name":"start_players","objective":"battle_royale"}}]
+title @a[scores={join=4}] actionbar ["",{"text":"(参加選択中) プレイヤーを待っています "},{"score":{"name":"players","objective":"control"}},{"text":"/"},{"score":{"name":"start_players","objective":"battle_royale"}}]
