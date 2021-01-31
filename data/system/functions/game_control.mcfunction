@@ -1,6 +1,6 @@
-execute if score game dummy matches ..-1 run tellraw @a ["",{"text":"[system]","color":"red"},{"text":" "},{"score":{"name":"game","objective":"dummy"}},{"text":"は不正な値です"}]
-execute if score game dummy matches ..-1 run scoreboard players set game dummy 0
-execute if score game dummy matches 2.. run tellraw @a ["",{"text":"[system]","color":"red"},{"text":" "},{"score":{"name":"game","objective":"dummy"}},{"text":"は不正な値です"}]
-execute if score game dummy matches 2.. run scoreboard players set game dummy 0
+execute if score game control matches ..-1 run scoreboard players set game control 0
+execute if score game control matches 9.. run scoreboard players set game control 0
 
-execute if score game dummy matches 0..1 run function system:battle_royale
+execute if score game control matches 1..2 run function system:game_battle_royale/battle_royale
+execute if score game control matches 3..6 run function system:game_death_match/death_match
+execute if score game control matches 7..8 run function system:game_zombie_escape/zombie_escape

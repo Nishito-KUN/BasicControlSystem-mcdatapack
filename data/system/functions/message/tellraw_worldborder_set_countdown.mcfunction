@@ -1,3 +1,0 @@
-execute if score timer_s dummy matches 1..60 if score timer_m dummy matches 1..60 run tellraw @a[scores={join=2..5}] ["",{"text":"[system]","color":"aqua"},{"text":" "},{"score":{"name":"timer_m","objective":"dummy"}},{"text":"分"},{"score":{"name":"timer_s","objective":"dummy"}},{"text":"秒後に収縮が開始します"}]
-execute if score timer_s dummy matches 0 if score timer_m dummy matches 1..60 run tellraw @a[scores={join=2..5}] ["",{"text":"[system]","color":"aqua"},{"text":" "},{"score":{"name":"timer_m","objective":"dummy"}},{"text":"分後に収縮が開始します"}]
-execute if score timer_s dummy matches 1..60 if score timer_m dummy matches 0 run tellraw @a[scores={join=2..5}] ["",{"text":"[system]","color":"aqua"},{"text":" "},{"score":{"name":"timer_s","objective":"dummy"}},{"text":"秒後に収縮が開始します"}]

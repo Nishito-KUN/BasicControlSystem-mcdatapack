@@ -1,1 +1,0 @@
-tellraw @a ["",{"text":"[system]","color":"aqua"},{"text":" "},{"selector":"@a[scores={join=4}]"},{"text":"が勝利しました。ゲームを終了します"}]

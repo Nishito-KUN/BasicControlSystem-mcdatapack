@@ -1,0 +1,17 @@
+{
+	"display": {
+		"icon": {
+			"item": "cooked_chicken"
+		},
+		"frame": "goal",
+		"title": "Victory",
+		"description": "試合に勝利する",
+		"announce_to_chat": false
+	},
+	"parent": "system:game_battle_royale/battle_royale",
+	"criteria": {
+		"": {
+			"trigger": "impossible"
+		}
+	}
+}

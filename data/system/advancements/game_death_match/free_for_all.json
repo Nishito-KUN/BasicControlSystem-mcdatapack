@@ -1,14 +1,14 @@
 {
 	"display": {
 		"icon": {
-			"item": "white_concrete"
+			"item": "golden_sword"
 		},
 		"frame": "goal",
-		"title": "FIGHT_3.0",
+		"title": "free_for_all",
 		"description": "",
-		"background": "minecraft:textures/misc/forcefield.png",
 		"announce_to_chat": false
 	},
+	"parent": "system:welcome",
 	"criteria": {
 		"": {
 			"trigger": "impossible"
