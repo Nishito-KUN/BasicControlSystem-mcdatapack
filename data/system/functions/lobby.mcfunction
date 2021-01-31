@@ -1,1 +1,0 @@
-clear @a[scores={join=0}]

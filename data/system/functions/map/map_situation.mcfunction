@@ -16,5 +16,5 @@ execute if score situation dummy matches 6 run time set night
 execute if score situation dummy matches 6 run weather rain
 execute if score situation dummy matches 7 run time set midnight
 execute if score situation dummy matches 7 run weather rain
-execute if score game dummy matches 17 run time set day
-execute if score game dummy matches 17 run weather clear
+execute if score phase dummy matches 17 run time set day
+execute if score phase dummy matches 17 run weather clear

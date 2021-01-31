@@ -9,7 +9,8 @@ scoreboard players set -1 dummy -1
 scoreboard players set center_x dummy 0
 scoreboard players set center_z dummy 0
 scoreboard players set end dummy 1
-scoreboard players set game dummy 1
+scoreboard players set game dummy 0
+scoreboard players set phase dummy 1
 scoreboard players set players dummy 0
 scoreboard players set situation dummy 0
 scoreboard players set start dummy 50
@@ -28,10 +29,20 @@ execute unless entity @e[type=armor_stand,name=center_set] run summon armor_stan
 tp @e[type=minecraft:armor_stand,name=center] 448.0 256 448.0
 tp @e[type=minecraft:armor_stand,name=center_set] 448.0 256 448.0
 worldborder center 448.0 448.0
-worldborder set 1008
+worldborder set 1024
 worldborder damage buffer 0
 worldborder damage amount 0.01
 setworldspawn 448 30 448
+
+difficulty normal
+
+gamerule doDaylightCycle false
+gamerule doFireTick false
+gamerule doMobSpawning false
+gamerule doWeatherCycle false
+gamerule mobGriefing false
+gamerule sendCommandFeedback false
+gamerule spectatorsGenerateChunks false
 
 tellraw @s ["",{"text":"[system]","color":"gray"},{"text":" オブジェクト [button       trigger] の作成を実行しました"}]
 tellraw @s ["",{"text":"[system]","color":"gray"},{"text":" オブジェクト [death   deathCount] の作成を実行しました"}]
@@ -44,7 +55,8 @@ tellraw @s ["",{"text":"[system]","color":"gray"},{"text":" オブジェクト [
 tellraw @s ["",{"text":"[system]","color":"gray"},{"text":" オブジェクト [dummy] に [center_x 0] を設定しました"}]
 tellraw @s ["",{"text":"[system]","color":"gray"},{"text":" オブジェクト [dummy] に [center_z 0] を設定しました"}]
 tellraw @s ["",{"text":"[system]","color":"gray"},{"text":" オブジェクト [dummy] に [end        1] を設定しました"}]
-tellraw @s ["",{"text":"[system]","color":"gray"},{"text":" オブジェクト [dummy] に [game       1] を設定しました"}]
+tellraw @s ["",{"text":"[system]","color":"gray"},{"text":" オブジェクト [dummy] に [game       0] を設定しました"}]
+tellraw @s ["",{"text":"[system]","color":"gray"},{"text":" オブジェクト [dummy] に [phase     1] を設定しました"}]
 tellraw @s ["",{"text":"[system]","color":"gray"},{"text":" オブジェクト [dummy] に [players   0] を設定しました"}]
 tellraw @s ["",{"text":"[system]","color":"gray"},{"text":" オブジェクト [dummy] に [situation  0] を設定しました"}]
 tellraw @s ["",{"text":"[system]","color":"gray"},{"text":" オブジェクト [dummy] に [start     50] を設定しました"}]
@@ -66,4 +78,14 @@ tellraw @s ["",{"text":"[system]","color":"gray"},{"text":" worldborder の dama
 
 tellraw @s ["",{"text":"[system]","color":"gray"},{"text":" worldspawn を [448 30 448] に設定しました"}]
 
-tellraw @s ["",{"text":"[system]","color":"gray"},{"text":" セットアップが完了しました。"},{"text":"datapacks:fight_3.0_pack/memo","color":"yellow"},{"text":"のforceloadを実行してください"}]
+tellraw @s ["",{"text":"[system]","color":"gray"},{"text":" 難易度 を normal に設定しました"}]
+
+tellraw @s ["",{"text":"[system]","color":"gray"},{"text":" ゲームルール の doDaylightCycle を [false] に設定しました"}]
+tellraw @s ["",{"text":"[system]","color":"gray"},{"text":" ゲームルール の doFireTick を [false] に設定しました"}]
+tellraw @s ["",{"text":"[system]","color":"gray"},{"text":" ゲームルール の doMobSpawning を [false] に設定しました"}]
+tellraw @s ["",{"text":"[system]","color":"gray"},{"text":" ゲームルール の doWeatherCycle を [false] に設定しました"}]
+tellraw @s ["",{"text":"[system]","color":"gray"},{"text":" ゲームルール の mobGriefing を [false] に設定しました"}]
+tellraw @s ["",{"text":"[system]","color":"gray"},{"text":" ゲームルール の sendCommandFeedback を [false] に設定しました"}]
+tellraw @s ["",{"text":"[system]","color":"gray"},{"text":" ゲームルール の spectatorsGenerateChunks を [false] に設定しました"}]
+
+tellraw @s ["",{"text":"[system]","color":"gray"},{"text":" セットアップが完了しました。"},{"text":"datapacks:fight_3.0_pack/memo_command","color":"yellow"},{"text":"のforceloadを実行してください"}]

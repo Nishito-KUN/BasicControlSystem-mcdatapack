@@ -18,19 +18,19 @@
         {
             "rolls": 1,
             "entries": [
+                {
+                    "type": "loot_table",
+                    "name": "system:weapon/weapons",
+                    "weight": 2
+                },
             	{
                     "type": "loot_table",
                     "name": "system:armor/armors",
-                    "weight": 1
+                    "weight": 2
                 },
                 {
                     "type": "loot_table",
                     "name": "system:food/food",
-                    "weight": 1
-                },
-                {
-                    "type": "loot_table",
-                    "name": "system:weapon/weapons",
                     "weight": 1
                 }
             ]

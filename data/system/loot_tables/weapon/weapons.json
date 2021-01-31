@@ -26,12 +26,17 @@
                 {
                     "type": "item",
                     "name": "minecraft:trident",
-                    "weight": 1
+                    "weight": 2
                 },
                 {
                     "type": "item",
                     "name": "minecraft:shield",
-                    "weight": 1
+                    "weight": 2
+                },
+                {
+                    "type": "loot_table",
+                    "name": "system:weapon/ender_pearl",
+                    "weight": 2
                 }
             ]
         }

@@ -3,185 +3,185 @@
         {
             "rolls": 1,
             "entries": [
-            	{
+                {
                     "type": "loot_table",
-                    "name": "system:food/chorus_fruit",
+                    "name": "system:food/1_enchanted_golden_apple",
                     "weight": 1
                 },
                 {
                     "type": "loot_table",
-                    "name": "system:food/enchanted_golden_apple",
+                    "name": "system:food/1_golden_apple",
                     "weight": 1
                 },
                 {
                     "type": "loot_table",
-                    "name": "system:food/golden_apple",
-                    "weight": 1
-                },
-                {
-                    "type": "loot_table",
-                    "name": "system:food/cooked_beef",
+                    "name": "system:food/2_cooked_beef",
                     "weight": 2
                 },
                 {
                     "type": "loot_table",
-                    "name": "system:food/cooked_mutton",
+                    "name": "system:food/2_cooked_mutton",
                     "weight": 2
                 },
                 {
                     "type": "loot_table",
-                    "name": "system:food/cooked_porkchop",
+                    "name": "system:food/2_cooked_porkchop",
                     "weight": 2
                 },
                 {
                     "type": "loot_table",
-                    "name": "system:food/pumpkin_pie",
+                    "name": "system:food/2_pumpkin_pie",
                     "weight": 2
                 },
                 {
                     "type": "loot_table",
-                    "name": "system:food/rabbit_stew",
+                    "name": "system:food/2_rabbit_stew",
                     "weight": 2
                 },
                 {
                     "type": "loot_table",
-                    "name": "system:food/baked_potato",
+                    "name": "system:food/3_baked_potato",
                     "weight": 3
                 },
                 {
                     "type": "loot_table",
-                    "name": "system:food/beetroot_soup",
+                    "name": "system:food/3_beetroot_soup",
                     "weight": 3
                 },
                 {
                     "type": "loot_table",
-                    "name": "system:food/bread",
+                    "name": "system:food/3_bread",
                     "weight": 3
                 },
                 {
                     "type": "loot_table",
-                    "name": "system:food/cooked_chicken",
+                    "name": "system:food/3_cooked_chicken",
                     "weight": 3
                 },
                 {
                     "type": "loot_table",
-                    "name": "system:food/cooked_cod",
+                    "name": "system:food/3_cooked_cod",
                     "weight": 3
                 },
                 {
                     "type": "loot_table",
-                    "name": "system:food/cooked_rabbit",
+                    "name": "system:food/3_cooked_rabbit",
                     "weight": 3
                 },
                 {
                     "type": "loot_table",
-                    "name": "system:food/cooked_salmon",
+                    "name": "system:food/3_cooked_salmon",
                     "weight": 3
                 },
                 {
                     "type": "loot_table",
-                    "name": "system:food/golden_carrot",
+                    "name": "system:food/3_golden_carrot",
                     "weight": 3
                 },
                 {
                     "type": "loot_table",
-                    "name": "system:food/mushroom_stew",
+                    "name": "system:food/3_mushroom_stew",
                     "weight": 3
                 },
                 {
                     "type": "loot_table",
-                    "name": "system:food/apple",
+                    "name": "system:food/4_apple",
                     "weight": 4
                 },
                 {
                     "type": "loot_table",
-                    "name": "system:food/beef",
+                    "name": "system:food/4_beef",
                     "weight": 4
                 },
                 {
                     "type": "loot_table",
-                    "name": "system:food/carrot",
+                    "name": "system:food/4_beetroot",
                     "weight": 4
                 },
                 {
                     "type": "loot_table",
-                    "name": "system:food/chicken",
+                    "name": "system:food/4_carrot",
                     "weight": 4
                 },
                 {
                     "type": "loot_table",
-                    "name": "system:food/mutton",
+                    "name": "system:food/4_chicken",
                     "weight": 4
                 },
                 {
                     "type": "loot_table",
-                    "name": "system:food/porkchop",
+                    "name": "system:food/4_chorus_fruit",
                     "weight": 4
                 },
                 {
                     "type": "loot_table",
-                    "name": "system:food/rabbit",
+                    "name": "system:food/4_cod",
                     "weight": 4
                 },
                 {
                     "type": "loot_table",
-                    "name": "system:food/beetroot",
-                    "weight": 5
+                    "name": "system:food/4_cookie",
+                    "weight": 4
                 },
                 {
                     "type": "loot_table",
-                    "name": "system:food/cod",
-                    "weight": 5
+                    "name": "system:food/4_dried_kelp",
+                    "weight": 4
                 },
                 {
                     "type": "loot_table",
-                    "name": "system:food/cookie",
-                    "weight": 5
+                    "name": "system:food/4_melon_slice",
+                    "weight": 4
                 },
                 {
                     "type": "loot_table",
-                    "name": "system:food/dried_kelp",
-                    "weight": 5
+                    "name": "system:food/4_mutton",
+                    "weight": 4
                 },
                 {
                     "type": "loot_table",
-                    "name": "system:food/melon_slice",
-                    "weight": 5
+                    "name": "system:food/4_poisonous_potato",
+                    "weight": 4
                 },
                 {
                     "type": "loot_table",
-                    "name": "system:food/poisonous_potato",
-                    "weight": 5
+                    "name": "system:food/4_porkchop",
+                    "weight": 4
                 },
                 {
                     "type": "loot_table",
-                    "name": "system:food/potato",
-                    "weight": 5
+                    "name": "system:food/4_potato",
+                    "weight": 4
                 },
                 {
                     "type": "loot_table",
-                    "name": "system:food/pufferfish",
-                    "weight": 5
+                    "name": "system:food/4_pufferfish",
+                    "weight": 4
                 },
                 {
                     "type": "loot_table",
-                    "name": "system:food/rotten_flesh",
-                    "weight": 5
+                    "name": "system:food/4_rabbit",
+                    "weight": 4
                 },
                 {
                     "type": "loot_table",
-                    "name": "system:food/salmon",
-                    "weight": 5
+                    "name": "system:food/4_rotten_flesh",
+                    "weight": 4
                 },
                 {
                     "type": "loot_table",
-                    "name": "system:food/spider_eye",
-                    "weight": 5
+                    "name": "system:food/4_salmon",
+                    "weight": 4
                 },
                 {
                     "type": "loot_table",
-                    "name": "system:food/tropical_fish",
-                    "weight": 5
+                    "name": "system:food/4_spider_eye",
+                    "weight": 4
+                },
+                {
+                    "type": "loot_table",
+                    "name": "system:food/4_tropical_fish",
+                    "weight": 4
                 }
             ]
         }
