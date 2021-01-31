@@ -1,19 +1,27 @@
-armor_standのtp先のチャンクはあらかじめ読み込んでおくか、tp直後にプレイヤーによって読み込む必要がある。
-worldspawnを凍結チャンクに設定しても、プレイヤーがそのチャンクを読み込むまで読み込まれない。
-L1.13.1のforceloadを使う。(4096chunkも読み込むので重くなるかもしれない)
-
-クラッシュ、強制終了、xボタンからの終了はjoinスコアがaddされない
-Lサーバーでならaddされるかもしれない。
-
-/summon armor_stand 448 100 448 {CustomName:"\"center\"",NoGravity:1b,Small:1,Marker:1b,ArmorItems:[{},{},{},{id:"minecraft:lime_concrete",Count:1b}],Pose:{Head:[180f,0f,0f]}}
-/summon armor_stand 448 100 448 {CustomName:"\"center_set\"",NoGravity:1b,Small:1,Marker:1b,ArmorItems:[{},{},{},{id:"minecraft:light_blue_concrete",Count:1b}],Pose:{Head:[180f,0f,0f]}}
+/summon armor_stand 448 256 448 {CustomName:"\"center\"",NoGravity:1b,Small:1,Marker:1b,ArmorItems:[{},{},{},{id:"minecraft:lime_concrete",Count:1b}],Pose:{Head:[180f,0f,0f]}}
+/summon armor_stand 448 256 448 {CustomName:"\"center_set\"",NoGravity:1b,Small:1,Marker:1b,ArmorItems:[{},{},{},{id:"minecraft:light_blue_concrete",Count:1b}],Pose:{Head:[180f,0f,0f]}}
 
 /summon armor_stand ~ ~ ~ {CustomName:"\"item_chest\"",Tags:["east"],Small:1,Marker:1b,ArmorItems:[{},{},{},{id:"minecraft:yellow_concrete",Count:1b}],Pose:{Head:[180f,0f,0f]}}
 /summon armor_stand ~ ~ ~ {CustomName:"\"item_chest\"",Tags:["north"],Small:1,Marker:1b,ArmorItems:[{},{},{},{id:"minecraft:yellow_concrete",Count:1b}],Pose:{Head:[180f,0f,0f]}}
 /summon armor_stand ~ ~ ~ {CustomName:"\"item_chest\"",Tags:["south"],Small:1,Marker:1b,ArmorItems:[{},{},{},{id:"minecraft:yellow_concrete",Count:1b}],Pose:{Head:[180f,0f,0f]}}
 /summon armor_stand ~ ~ ~ {CustomName:"\"item_chest\"",Tags:["west"],Small:1,Marker:1b,ArmorItems:[{},{},{},{id:"minecraft:yellow_concrete",Count:1b}],Pose:{Head:[180f,0f,0f]}}
 
-/give @p minecraft:armor_stand{display:{Name:"\"item_chest_east\""},EntityTag:{CustomName:"\"item_chest\"",Tags:["east"],Small:1,Marker:1b,ArmorItems:[{},{},{},{id:"minecraft:yellow_concrete",Count:1b}],Pose:{Head:[180f,0f,0f]}}}
-/give @p minecraft:armor_stand{display:{Name:"\"item_chest_north\""},EntityTag:{CustomName:"\"item_chest\"",Tags:["north"],Small:1,Marker:1b,ArmorItems:[{},{},{},{id:"minecraft:yellow_concrete",Count:1b}],Pose:{Head:[180f,0f,0f]}}}
-/give @p minecraft:armor_stand{display:{Name:"\"item_chest_south\""},EntityTag:{CustomName:"\"item_chest\"",Tags:["south"],Small:1,Marker:1b,ArmorItems:[{},{},{},{id:"minecraft:yellow_concrete",Count:1b}],Pose:{Head:[180f,0f,0f]}}}
-/give @p minecraft:armor_stand{display:{Name:"\"item_chest_west\""},EntityTag:{CustomName:"\"item_chest\"",Tags:["west"],Small:1,Marker:1b,ArmorItems:[{},{},{},{id:"minecraft:yellow_concrete",Count:1b}],Pose:{Head:[180f,0f,0f]}}}
+/forceload add -55 -55 180 180
+/forceload add -55 200 180 440
+/forceload add -55 455 180 695
+/forceload add -55 710 180 950
+
+/forceload add 200 -55 440 180
+/forceload add 200 200 440 440
+/forceload add 200 455 440 695
+/forceload add 200 710 440 950
+
+/forceload add 455 -55 695 180
+/forceload add 455 200 695 440
+/forceload add 455 455 695 695
+/forceload add 455 710 695 950
+
+/forceload add 710 -55 950 180
+/forceload add 710 200 950 440
+/forceload add 710 455 950 695
+/forceload add 710 710 950 950

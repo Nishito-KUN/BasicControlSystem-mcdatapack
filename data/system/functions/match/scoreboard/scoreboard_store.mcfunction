@@ -1,1 +1,0 @@
-execute if score match dummy matches 1..16 store result score players dummy if entity @a[scores={join=4}]

@@ -1,0 +1,33 @@
+{
+	"display": {
+		"icon": {
+			"item": "cake"
+		},
+		"frame": "goal",
+		"title": "ようこそ !",
+		"description": "サーバーに接続する",
+		"announce_to_chat": false
+	},
+	"parent": "system:fight_3.0",
+	"criteria": {
+		"": {
+			"trigger": "location",
+			"conditions": {
+				"position": {
+					"x": {
+						"max": -100.3,
+						"min": -100.7
+					},
+					"y": {
+						"max": 100.2,
+						"min": 100.0
+					},
+					"z": {
+						"max": -100.3,
+						"min": -100.7
+					}
+				}
+			}
+		}
+	}
+}

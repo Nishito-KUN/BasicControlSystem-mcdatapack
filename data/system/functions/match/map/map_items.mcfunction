@@ -1,6 +1,0 @@
-execute at @e[type=minecraft:armor_stand,name=item_chest,tag=replace] if entity @a[scores={join=4},distance=..6] run setblock ~ ~ ~ minecraft:air
-execute at @e[type=minecraft:armor_stand,name=item_chest,tag=east,tag=replace] if entity @a[scores={join=4},distance=..6] run setblock ~ ~ ~ minecraft:chest[facing=west]{LootTable:"system:items"}
-execute at @e[type=minecraft:armor_stand,name=item_chest,tag=north,tag=replace] if entity @a[scores={join=4},distance=..6] run setblock ~ ~ ~ minecraft:chest[facing=south]{LootTable:"system:items"}
-execute at @e[type=minecraft:armor_stand,name=item_chest,tag=south,tag=replace] if entity @a[scores={join=4},distance=..6] run setblock ~ ~ ~ minecraft:chest[facing=north]{LootTable:"system:items"}
-execute at @e[type=minecraft:armor_stand,name=item_chest,tag=west,tag=replace] if entity @a[scores={join=4},distance=..6] run setblock ~ ~ ~ minecraft:chest[facing=east]{LootTable:"system:items"}
-execute at @e[type=minecraft:armor_stand,name=item_chest,tag=replace] if entity @a[scores={join=4},distance=..6] run tag @e[type=minecraft:armor_stand,name=item_chest,tag=replace] remove replace

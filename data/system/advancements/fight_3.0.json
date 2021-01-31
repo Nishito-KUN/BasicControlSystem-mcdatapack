@@ -1,0 +1,17 @@
+{
+	"display": {
+		"icon": {
+			"item": "white_concrete"
+		},
+		"frame": "goal",
+		"title": "FIGHT 3.0",
+		"description": "",
+		"background": "minecraft:textures/misc/forcefield.png",
+		"announce_to_chat": false
+	},
+	"criteria": {
+		"": {
+			"trigger": "impossible"
+		}
+	}
+}

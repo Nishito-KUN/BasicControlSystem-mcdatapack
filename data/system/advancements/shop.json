@@ -1,0 +1,17 @@
+{
+	"display": {
+		"icon": {
+			"item": "turtle_egg"
+		},
+		"frame": "goal",
+		"title": "Shop",
+		"description": "ショップを開く",
+		"announce_to_chat": true
+	},
+	"parent": "system:fight_3.0",
+	"criteria": {
+		"": {
+			"trigger": "impossible"
+		}
+	}
+}

@@ -1,0 +1,17 @@
+{
+	"display": {
+		"icon": {
+			"item": "red_concrete"
+		},
+		"frame": "task",
+		"title": "OFF",
+		"description": "",
+		"announce_to_chat": false
+	},
+	"parent": "system:shop",
+	"criteria": {
+		"": {
+			"trigger": "impossible"
+		}
+	}
+}

@@ -1,5 +1,9 @@
 {
   "values": [
-  	"system:system_tick"
+  	"system:timer",
+  	"system:join",
+  	"system:button",
+  	"system:register",
+  	"system:game_control"
   ]
 }
