@@ -1,9 +1,0 @@
-#system:game_battle_royale/battle_royale
-
-execute if score phase control matches 4 at @e[type=minecraft:armor_stand,name=worldborder_center_objective] as @e[type=minecraft:armor_stand,name=worldborder_center,distance=0.1..] at @s run tp @s ^ ^ ^0.4 facing entity @e[type=minecraft:armor_stand,name=worldborder_center_objective,limit=1]
-execute if score phase control matches 6 at @e[type=minecraft:armor_stand,name=worldborder_center_objective] as @e[type=minecraft:armor_stand,name=worldborder_center,distance=0.1..] at @s run tp @s ^ ^ ^0.2 facing entity @e[type=minecraft:armor_stand,name=worldborder_center_objective,limit=1]
-execute if score phase control matches 8 at @e[type=minecraft:armor_stand,name=worldborder_center_objective] as @e[type=minecraft:armor_stand,name=worldborder_center,distance=0.1..] at @s run tp @s ^ ^ ^0.1 facing entity @e[type=minecraft:armor_stand,name=worldborder_center_objective,limit=1]
-execute if score phase control matches 10 at @e[type=minecraft:armor_stand,name=worldborder_center_objective] as @e[type=minecraft:armor_stand,name=worldborder_center,distance=0.1..] at @s run tp @s ^ ^ ^0.1 facing entity @e[type=minecraft:armor_stand,name=worldborder_center_objective,limit=1]
-execute if score phase control matches 12 at @e[type=minecraft:armor_stand,name=worldborder_center_objective] as @e[type=minecraft:armor_stand,name=worldborder_center,distance=0.1..] at @s run tp @s ^ ^ ^0.08 facing entity @e[type=minecraft:armor_stand,name=worldborder_center_objective,limit=1]
-execute if score phase control matches 14 at @e[type=minecraft:armor_stand,name=worldborder_center_objective] as @e[type=minecraft:armor_stand,name=worldborder_center,distance=0.1..] at @s run tp @s ^ ^ ^0.16 facing entity @e[type=minecraft:armor_stand,name=worldborder_center_objective,limit=1]
-execute at @e[type=minecraft:armor_stand,name=worldborder_center] run worldborder center ~ ~

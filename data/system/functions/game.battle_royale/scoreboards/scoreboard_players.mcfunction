@@ -1,0 +1,1 @@
+execute store result score players control if entity @a[scores={join=4}]
