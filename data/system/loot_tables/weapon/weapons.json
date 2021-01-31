@@ -1,0 +1,39 @@
+{
+    "pools": [
+        {
+            "rolls": 1,
+            "entries": [
+                {
+                    "type": "loot_table",
+                    "name": "system:weapon/axe",
+                    "weight": 4
+                },
+            	{
+                    "type": "loot_table",
+                    "name": "system:weapon/sword",
+                    "weight": 4
+                },
+                {
+                    "type": "loot_table",
+                    "name": "system:weapon/arrow/arrows",
+                    "weight": 3
+                },
+                {
+                    "type": "loot_table",
+                    "name": "system:weapon/bow",
+                    "weight": 2
+                },
+                {
+                    "type": "item",
+                    "name": "minecraft:trident",
+                    "weight": 1
+                },
+                {
+                    "type": "item",
+                    "name": "minecraft:shield",
+                    "weight": 1
+                }
+            ]
+        }
+    ]
+}

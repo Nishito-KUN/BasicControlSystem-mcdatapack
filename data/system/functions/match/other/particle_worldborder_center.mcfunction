@@ -1,0 +1,1 @@
+execute as @a[scores={join=2..5}] at @s positioned ~ ~10 ~ facing entity @e[type=minecraft:armor_stand,name=center_set] eyes run particle minecraft:explosion ^ ^ ^30 0 0 0 0 1 force @s

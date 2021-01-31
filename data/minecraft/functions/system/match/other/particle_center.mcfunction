@@ -1,1 +1,0 @@
-execute if score match dummy matches 3 at @a[scores={join=4}] positioned ~ ~10 ~ facing entity @e[type=minecraft:armor_stand,name=center_set] eyes run particle minecraft:explosion ^ ^ ^30 0 0 0 0 1 force @p

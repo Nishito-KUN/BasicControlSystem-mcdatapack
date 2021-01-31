@@ -1,35 +1,18 @@
-{join(状態):(0-1=ロビー)(2-3=観戦)(4-5=参加)}
-{button(処理):(1=再ログイン)(2=再ログイン2)(3=観戦)(4=観戦2)(5=参加)(6..=不正値)}
-{match(状態):(0=無操作)(1=自動)(2=試合準備)(3=試合中)(4=試合終了)}
-
-1008x1008block,64x64(4096)chunk
-maxload16x16(256)chunk
--55 -55 180 180
--55 200 180 440
--55 455 180 695
--55 710 180 950
-
-200 -55 440 180
-200 200 440 440
-200 455 440 695
-200 710 440 950
-
-455 -55 695 180
-455 200 695 440
-455 455 695 695
-455 710 695 950
-
-710 -55 950 180
-710 200 950 440
-710 455 950 695
-710 710 950 950
-
-armor_standのtp先はあらかじめ読み込まれている、もしくはtp直後にプレイヤーによってチャンクを読み込む必要がある。
+armor_standのtp先のチャンクはあらかじめ読み込んでおくか、tp直後にプレイヤーによって読み込む必要がある。
 worldspawnを凍結チャンクに設定しても、プレイヤーがそのチャンクを読み込むまで読み込まれない。
+L1.13.1のforceloadを使う。(4096chunkも読み込むので重くなるかもしれない)
 
-クラッシュ、強制終了、xマークからの終了はjoinスコアがaddされない
-Lただしサーバーでならaddされると思われる。
+クラッシュ、強制終了、xボタンからの終了はjoinスコアがaddされない
+Lサーバーでならaddされるかもしれない。
 
-/summon armor_stand 448 101 448 {CustomName:"\"center\"",NoGravity:1b,Small:1,Marker:1b,ArmorItems:[{},{},{},{id:"minecraft:lime_concrete",Count:1b}],Pose:{Head:[180f,0f,0f]}}
+/summon armor_stand 448 100 448 {CustomName:"\"center\"",NoGravity:1b,Small:1,Marker:1b,ArmorItems:[{},{},{},{id:"minecraft:lime_concrete",Count:1b}],Pose:{Head:[180f,0f,0f]}}
 /summon armor_stand 448 100 448 {CustomName:"\"center_set\"",NoGravity:1b,Small:1,Marker:1b,ArmorItems:[{},{},{},{id:"minecraft:light_blue_concrete",Count:1b}],Pose:{Head:[180f,0f,0f]}}
-/summon armor_stand ~ ~ ~ {CustomName:"\"field_chest\"",Small:1,Marker:1b,ArmorItems:[{},{},{},{id:"minecraft:yellow_concrete",Count:1b}],Pose:{Head:[180f,0f,0f]}}
+/summon armor_stand ~ ~ ~ {CustomName:"\"item_chest\"",Tags:["east"],Small:1,Marker:1b,ArmorItems:[{},{},{},{id:"minecraft:yellow_concrete",Count:1b}],Pose:{Head:[180f,0f,0f]}}
+/summon armor_stand ~ ~ ~ {CustomName:"\"item_chest\"",Tags:["north"],Small:1,Marker:1b,ArmorItems:[{},{},{},{id:"minecraft:yellow_concrete",Count:1b}],Pose:{Head:[180f,0f,0f]}}
+/summon armor_stand ~ ~ ~ {CustomName:"\"item_chest\"",Tags:["south"],Small:1,Marker:1b,ArmorItems:[{},{},{},{id:"minecraft:yellow_concrete",Count:1b}],Pose:{Head:[180f,0f,0f]}}
+/summon armor_stand ~ ~ ~ {CustomName:"\"item_chest\"",Tags:["west"],Small:1,Marker:1b,ArmorItems:[{},{},{},{id:"minecraft:yellow_concrete",Count:1b}],Pose:{Head:[180f,0f,0f]}}
+
+/give @p minecraft:armor_stand{display:{Name:"\"item_chest_east\""},EntityTag:{CustomName:"\"item_chest\"",Tags:["east"],Small:1,Marker:1b,ArmorItems:[{},{},{},{id:"minecraft:yellow_concrete",Count:1b}],Pose:{Head:[180f,0f,0f]}}}
+/give @p minecraft:armor_stand{display:{Name:"\"item_chest_north\""},EntityTag:{CustomName:"\"item_chest\"",Tags:["north"],Small:1,Marker:1b,ArmorItems:[{},{},{},{id:"minecraft:yellow_concrete",Count:1b}],Pose:{Head:[180f,0f,0f]}}}
+/give @p minecraft:armor_stand{display:{Name:"\"item_chest_south\""},EntityTag:{CustomName:"\"item_chest\"",Tags:["south"],Small:1,Marker:1b,ArmorItems:[{},{},{},{id:"minecraft:yellow_concrete",Count:1b}],Pose:{Head:[180f,0f,0f]}}}
+/give @p minecraft:armor_stand{display:{Name:"\"item_chest_west\""},EntityTag:{CustomName:"\"item_chest\"",Tags:["west"],Small:1,Marker:1b,ArmorItems:[{},{},{},{id:"minecraft:yellow_concrete",Count:1b}],Pose:{Head:[180f,0f,0f]}}}

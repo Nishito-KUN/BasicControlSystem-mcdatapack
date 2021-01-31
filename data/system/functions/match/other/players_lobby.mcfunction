@@ -1,0 +1,1 @@
+scoreboard players set @a[scores={join=2..5}] button 2
