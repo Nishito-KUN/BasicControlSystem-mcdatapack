@@ -1,0 +1,189 @@
+{
+	"pools": [
+		{
+			"rolls": 1,
+			"entries": [
+				{
+					"type": "loot_table",
+					"name": "system:food/legendary/enchanted_golden_apple",
+					"weight": 1
+				},
+				{
+					"type": "loot_table",
+					"name": "system:food/epic/golden_apple",
+					"weight": 2
+				},
+				{
+					"type": "loot_table",
+					"name": "system:food/rare/cooked_beef",
+					"weight": 2
+				},
+				{
+					"type": "loot_table",
+					"name": "system:food/rare/cooked_mutton",
+					"weight": 2
+				},
+				{
+					"type": "loot_table",
+					"name": "system:food/rare/cooked_porkchop",
+					"weight": 2
+				},
+				{
+					"type": "loot_table",
+					"name": "system:food/rare/pumpkin_pie",
+					"weight": 2
+				},
+				{
+					"type": "loot_table",
+					"name": "system:food/rare/rabbit_stew",
+					"weight": 2
+				},
+				{
+					"type": "loot_table",
+					"name": "system:food/uncommon/baked_potato",
+					"weight": 3
+				},
+				{
+					"type": "loot_table",
+					"name": "system:food/uncommon/beetroot_soup",
+					"weight": 3
+				},
+				{
+					"type": "loot_table",
+					"name": "system:food/uncommon/bread",
+					"weight": 3
+				},
+				{
+					"type": "loot_table",
+					"name": "system:food/uncommon/cooked_chicken",
+					"weight": 3
+				},
+				{
+					"type": "loot_table",
+					"name": "system:food/uncommon/cooked_cod",
+					"weight": 3
+				},
+				{
+					"type": "loot_table",
+					"name": "system:food/uncommon/cooked_rabbit",
+					"weight": 3
+				},
+				{
+					"type": "loot_table",
+					"name": "system:food/uncommon/cooked_salmon",
+					"weight": 3
+				},
+				{
+					"type": "loot_table",
+					"name": "system:food/uncommon/golden_carrot",
+					"weight": 3
+				},
+				{
+					"type": "loot_table",
+					"name": "system:food/uncommon/mushroom_stew",
+					"weight": 3
+				},
+				{
+					"type": "loot_table",
+					"name": "system:food/common/apple",
+					"weight": 4
+				},
+				{
+					"type": "loot_table",
+					"name": "system:food/common/beef",
+					"weight": 4
+				},
+				{
+					"type": "loot_table",
+					"name": "system:food/common/beetroot",
+					"weight": 4
+				},
+				{
+					"type": "loot_table",
+					"name": "system:food/common/carrot",
+					"weight": 4
+				},
+				{
+					"type": "loot_table",
+					"name": "system:food/common/chicken",
+					"weight": 4
+				},
+				{
+					"type": "loot_table",
+					"name": "system:food/uncommon/chorus_fruit",
+					"weight": 3
+				},
+				{
+					"type": "loot_table",
+					"name": "system:food/common/cod",
+					"weight": 4
+				},
+				{
+					"type": "loot_table",
+					"name": "system:food/common/cookie",
+					"weight": 4
+				},
+				{
+					"type": "loot_table",
+					"name": "system:food/common/dried_kelp",
+					"weight": 4
+				},
+				{
+					"type": "loot_table",
+					"name": "system:food/common/melon_slice",
+					"weight": 4
+				},
+				{
+					"type": "loot_table",
+					"name": "system:food/common/mutton",
+					"weight": 4
+				},
+				{
+					"type": "loot_table",
+					"name": "system:food/common/poisonous_potato",
+					"weight": 4
+				},
+				{
+					"type": "loot_table",
+					"name": "system:food/common/porkchop",
+					"weight": 4
+				},
+				{
+					"type": "loot_table",
+					"name": "system:food/common/potato",
+					"weight": 4
+				},
+				{
+					"type": "loot_table",
+					"name": "system:food/common/pufferfish",
+					"weight": 4
+				},
+				{
+					"type": "loot_table",
+					"name": "system:food/common/rabbit",
+					"weight": 4
+				},
+				{
+					"type": "loot_table",
+					"name": "system:food/common/rotten_flesh",
+					"weight": 4
+				},
+				{
+					"type": "loot_table",
+					"name": "system:food/common/salmon",
+					"weight": 4
+				},
+				{
+					"type": "loot_table",
+					"name": "system:food/common/spider_eye",
+					"weight": 4
+				},
+				{
+					"type": "loot_table",
+					"name": "system:food/common/tropical_fish",
+					"weight": 4
+				}
+			]
+		}
+	]
+}

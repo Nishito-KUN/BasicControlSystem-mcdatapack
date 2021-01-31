@@ -1,0 +1,2 @@
+execute if score plugins battle_royale matches 0 run data merge block ~ ~ ~ {LootTable:"system:battle_royale_items"}
+execute if score plugins battle_royale matches 1 run data merge block ~ ~ ~ {LootTable:"system:plugin_battle_royale_items"}

@@ -1,6 +1,5 @@
 {
-  "values": [
-  	"system:register",
-  	"system:game_control"
-  ]
+	"values": [
+		"system:control"
+	]
 }

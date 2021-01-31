@@ -1,0 +1,14 @@
+{
+	"pools": [
+		{
+			"rolls": 1,
+			"entries": [
+				{
+					"type": "loot_table",
+					"name": "system:plugin/weapon/gun/designated_marksman_rifle/sks",
+					"weight": 1
+				}
+			]
+		}
+	]
+}

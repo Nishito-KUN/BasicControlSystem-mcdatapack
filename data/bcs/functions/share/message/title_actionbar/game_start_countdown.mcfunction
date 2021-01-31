@@ -1,0 +1,3 @@
+title @a[scores={join=0}] actionbar ["",{"text":"(ロビー) "},{"score":{"name":"timer_s","objective":"control"}},{"text":"秒後にゲームを開始します"}]
+title @a[scores={join=2}] actionbar ["",{"text":"(観戦選択中) "},{"score":{"name":"timer_s","objective":"control"}},{"text":"秒後にゲームを開始します"}]
+title @a[scores={join=4}] actionbar ["",{"text":"(参加選択中) "},{"score":{"name":"timer_s","objective":"control"}},{"text":"秒後にゲームを開始します"}]

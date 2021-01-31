@@ -1,0 +1,29 @@
+{
+    "pools": [
+        {
+            "rolls": 1,
+            "entries": [
+                {
+                    "type": "loot_table",
+                    "name": "system:plugin/recovery_item/first_aid_kit",
+                    "weight": 1
+                },
+            	{
+                    "type": "loot_table",
+                    "name": "system:plugin/recovery_item/analgesic",
+                    "weight": 3
+                },
+                {
+                    "type": "loot_table",
+                    "name": "system:plugin/recovery_item/bandage",
+                    "weight": 3
+                },
+                {
+                    "type": "loot_table",
+                    "name": "system:plugin/recovery_item/energy_drink",
+                    "weight": 3
+                }
+            ]
+        }
+    ]
+}
