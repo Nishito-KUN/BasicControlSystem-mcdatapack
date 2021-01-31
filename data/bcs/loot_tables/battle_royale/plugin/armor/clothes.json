@@ -10,7 +10,7 @@
 					"functions": [
 						{
 							"function": "minecraft:set_nbt",
-							"tag": "{display:{color:5000268}}"
+							"tag": "{display:{color:5000268f}}"
 						}
 					]
 				},
@@ -21,7 +21,7 @@
 					"functions": [
 						{
 							"function": "minecraft:set_nbt",
-							"tag": "{display:{color:16777215}}"
+							"tag": "{display:{color:16777215f}}"
 						}
 					]
 				},
@@ -32,7 +32,7 @@
 					"functions": [
 						{
 							"function": "minecraft:set_nbt",
-							"tag": "{display:{color:10040115}}"
+							"tag": "{display:{color:10040115f}}"
 						}
 					]
 				},
@@ -43,7 +43,7 @@
 					"functions": [
 						{
 							"function": "minecraft:set_nbt",
-							"tag": "{display:{color:5000268}}"
+							"tag": "{display:{color:5000268f}}"
 						}
 					]
 				},
@@ -54,7 +54,7 @@
 					"functions": [
 						{
 							"function": "minecraft:set_nbt",
-							"tag": "{display:{color:16777215}}"
+							"tag": "{display:{color:16777215f}}"
 						}
 					]
 				},
@@ -65,7 +65,7 @@
 					"functions": [
 						{
 							"function": "minecraft:set_nbt",
-							"tag": "{display:{color:10040115}}"
+							"tag": "{display:{color:10040115f}}"
 						}
 					]
 				},
@@ -76,7 +76,7 @@
 					"functions": [
 						{
 							"function": "minecraft:set_nbt",
-							"tag": "{display:{color:5868728}}"
+							"tag": "{display:{color:5868728f}}"
 						}
 					]
 				},
@@ -87,7 +87,7 @@
 					"functions": [
 						{
 							"function": "minecraft:set_nbt",
-							"tag": "{display:{color:10066329}}"
+							"tag": "{display:{color:10066329f}}"
 						}
 					]
 				},
@@ -98,7 +98,7 @@
 					"functions": [
 						{
 							"function": "minecraft:set_nbt",
-							"tag": "{display:{color:1644825}}"
+							"tag": "{display:{color:1644825f}}"
 						}
 					]
 				},
@@ -109,7 +109,7 @@
 					"functions": [
 						{
 							"function": "minecraft:set_nbt",
-							"tag": "{display:{color:5000268}}"
+							"tag": "{display:{color:5000268f}}"
 						}
 					]
 				},
@@ -120,7 +120,7 @@
 					"functions": [
 						{
 							"function": "minecraft:set_nbt",
-							"tag": "{display:{color:16777215}}"
+							"tag": "{display:{color:16777215f}}"
 						}
 					]
 				},
@@ -131,7 +131,7 @@
 					"functions": [
 						{
 							"function": "minecraft:set_nbt",
-							"tag": "{display:{color:6704179}}"
+							"tag": "{display:{color:6704179f}}"
 						}
 					]
 				},
@@ -142,7 +142,7 @@
 					"functions": [
 						{
 							"function": "minecraft:set_nbt",
-							"tag": "{display:{color:5013401}}"
+							"tag": "{display:{color:5013401f}}"
 						}
 					]
 				},
@@ -153,7 +153,7 @@
 					"functions": [
 						{
 							"function": "minecraft:set_nbt",
-							"tag": "{display:{color:10066329}}"
+							"tag": "{display:{color:10066329f}}"
 						}
 					]
 				},
@@ -165,7 +165,7 @@
 					"functions": [
 						{
 							"function": "minecraft:set_nbt",
-							"tag": "{display:{color:5000268}}"
+							"tag": "{display:{color:5000268f}}"
 						}
 					]
 				},
@@ -177,7 +177,7 @@
 					"functions": [
 						{
 							"function": "minecraft:set_nbt",
-							"tag": "{display:{color:6704179}}"
+							"tag": "{display:{color:6704179f}}"
 						}
 					]
 				}

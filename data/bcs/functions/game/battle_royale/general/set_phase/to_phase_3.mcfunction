@@ -1,4 +1,6 @@
 function bcs:game/battle_royale/general/phase
 function bcs:game/battle_royale/worldborder/change_center
-execute as @a[scores={bcs.join=2..5}] run function bcs:game/battle_royale/message/tellraw/announce/changed_center
+function bcs:game/battle_royale/world/set_supply_drops
+function bcs:game/battle_royale/message/tellraw/announce/changed_center
+execute as @a[scores={bcs.join=2..5}] at @s run playsound minecraft:block.note_block.bit master @s ~ ~ ~ 1 1.9
 scoreboard players set switch bcs.control 1

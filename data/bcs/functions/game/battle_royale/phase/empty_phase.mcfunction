@@ -1,1 +1,1 @@
-execute if score timer_m bcs.control matches 0 if score timer_s bcs.control matches 0 if score timer_t bcs.control matches 0 run function bcs:game/battle_royale/general/set_phase/end_phase
+execute if score timer_m bcs.control matches 0 if score timer_s bcs.control matches 0 if score timer_t bcs.control matches 0 run function bcs:game/battle_royale/general/set_phase/end_game

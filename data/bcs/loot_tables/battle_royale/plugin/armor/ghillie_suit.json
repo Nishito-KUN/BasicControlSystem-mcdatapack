@@ -5,7 +5,7 @@
 			"entries": [
 				{
 					"type": "item",
-					"name": "minecraft:diamond_helmet",
+					"name": "minecraft:golden_helmet",
 					"weight": 1
 				}
 			]
@@ -15,7 +15,7 @@
 			"entries": [
 				{
 					"type": "item",
-					"name": "minecraft:diamond_chestplate",
+					"name": "minecraft:golden_chestplate",
 					"weight": 1
 				}
 			]

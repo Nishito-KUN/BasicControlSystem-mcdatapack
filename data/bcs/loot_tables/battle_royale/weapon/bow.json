@@ -15,7 +15,7 @@
 			"entries": [
 				{
 					"type": "loot_table",
-					"name": "system:weapon/arrow/arrow",
+					"name": "bcs:battle_royale/weapon/arrow/arrow",
 					"weight": 1
 				}
 			]

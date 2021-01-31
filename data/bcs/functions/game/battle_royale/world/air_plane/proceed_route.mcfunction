@@ -1,0 +1,2 @@
+execute as @e[type=minecraft:ender_dragon,name=bcs.air_plane] at @s facing entity @e[type=minecraft:armor_stand,name=bcs.ap_objective,limit=1] eyes run tp @s ^ ^ ^1 ~180 0
+execute as @a[scores={bcs.join=4},tag=bcs.air] at @e[type=minecraft:ender_dragon,name=bcs.air_plane] rotated as @s run tp @s ^ ^ ^-10

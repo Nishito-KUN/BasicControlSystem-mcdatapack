@@ -1,2 +1,3 @@
 summon armor_stand 960 256 960 {CustomName:"{\"text\":\"bcs.wb\"}",NoGravity:1b,Small:1b,Marker:1b,ArmorItems:[{},{},{},{id:"minecraft:lime_concrete",Count:1b}],Pose:{Head:[180f,0f,0f]}}
 summon armor_stand 960 256 960 {CustomName:"{\"text\":\"bcs.wb_objective\"}",NoGravity:1b,Small:1b,Marker:1b,ArmorItems:[{},{},{},{id:"minecraft:light_blue_concrete",Count:1b}],Pose:{Head:[180f,0f,0f]}}
+summon armor_stand 960 256 960 {CustomName:"{\"text\":\"bcs.ap_objective\"}",NoGravity:1b,Small:1b,Marker:1b,ArmorItems:[{},{},{},{id:"minecraft:yellow_concrete",Count:1b}],Pose:{Head:[180f,0f,0f]}}

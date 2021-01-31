@@ -5,7 +5,7 @@
 			"entries": [
 				{
 					"type": "item",
-					"name": "minecraft:clay_ball",
+					"name": "minecraft:cyan_dye",
 					"weight": 10,
 					"functions": [
 						{
@@ -16,7 +16,7 @@
 				},
 				{
 					"type": "item",
-					"name": "minecraft:clay_ball",
+					"name": "minecraft:cyan_dye",
 					"weight": 5,
 					"functions": [
 						{
@@ -27,7 +27,7 @@
 				},
 				{
 					"type": "item",
-					"name": "minecraft:clay_ball",
+					"name": "minecraft:cyan_dye",
 					"weight": 1,
 					"functions": [
 						{

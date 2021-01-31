@@ -1,1 +1,1 @@
-tellraw @s ["",{"text":"\n[bcs.announce] ","color":"gray"},{"text":"まもなくゲームを開始します\n"}]
+tellraw @a ["",{"text":"\n[bcs.announce] ","color":"gray"},{"text":"まもなくゲームを開始します\n"}]

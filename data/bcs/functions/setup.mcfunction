@@ -11,4 +11,4 @@ function bcs:library/team/add/game
 
 difficulty hard
 
-execute as @a run function bcs:library/message/tellraw/announce/setup_executed
+function bcs:library/message/tellraw/announce/setup_executed

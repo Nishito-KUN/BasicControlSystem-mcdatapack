@@ -5,7 +5,7 @@
 			"entries": [
 				{
 					"type": "loot_table",
-					"name": "system:plugin/ammo/5.56mm",
+					"name": "bcs:battle_royale/plugin/ammo/5.56mm",
 					"weight": 1
 				}
 			]
@@ -15,7 +15,7 @@
 			"entries": [
 				{
 					"type": "item",
-					"name": "minecraft:coal",
+					"name": "minecraft:charcoal",
 					"weight": 1
 				}
 			]

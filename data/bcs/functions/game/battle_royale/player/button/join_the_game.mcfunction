@@ -9,5 +9,7 @@ function bcs:library/message/tellraw/tell/joined_the_game
 function bcs:game/battle_royale/scoreboard/return/enable_plugins
 execute if score return bcs.control matches 0 run gamemode adventure @s
 execute if score return bcs.control matches 1 run gamemode survival @s
+tag @s remove bcs.air
+tag @s remove bcs.descent
 scoreboard players set @s bcs.join 4
 scoreboard players set @s bcs.button 0

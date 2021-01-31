@@ -1,6 +1,6 @@
 scoreboard players reset * bcs.control
 
-scoreboard players set game bcs.control 0
+scoreboard players set game bcs.control 1
 scoreboard players set phase bcs.control 0
 scoreboard players set players bcs.control 0
 scoreboard players set return bcs.control 0

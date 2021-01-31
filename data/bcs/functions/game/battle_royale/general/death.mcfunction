@@ -1,4 +1,4 @@
-execute at @s run spawnpoint @s ~ ~ ~
+execute at @s run spawnpoint @s ~ ~1 ~
 function bcs:library/message/title/you_died
 function bcs:game/battle_royale/message/tellraw/result
 team leave @s[scores={bcs.join=4}]

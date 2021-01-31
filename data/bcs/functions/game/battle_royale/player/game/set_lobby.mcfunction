@@ -1,2 +1,4 @@
 execute as @a[scores={bcs.join=4}] run spawnpoint @s -101 100 -101
-execute as @a[scores={bcs.join=2..5}] run scoreboard players set @s bcs.join 1
+tag @a[scores={bcs.join=2..5}] remove bcs.air
+tag @a[scores={bcs.join=2..5}] remove bcs.descent
+scoreboard players set @a[scores={bcs.join=2..5}] bcs.join 1

@@ -1,1 +1,1 @@
-tellraw @s ["",{"text":"\n[bcs.announce] ","color":"gray"},{"text":"エリアの収縮が開始します\n"}]
+tellraw @a[scores={bcs.join=2..5}] ["",{"text":"\n[bcs.announce] ","color":"gray"},{"text":"エリアの収縮が開始します\n"}]

@@ -110,7 +110,7 @@
 				},
 				{
 					"type": "loot_table",
-					"name": "bcs:battle_royale/food/uncommon/chorus_fruit",
+					"name": "bcs:battle_royale/food/common/chorus_fruit",
 					"weight": 3
 				},
 				{

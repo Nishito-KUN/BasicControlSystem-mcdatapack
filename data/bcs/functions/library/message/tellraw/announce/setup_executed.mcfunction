@@ -1,1 +1,1 @@
-tellraw @s ["",{"text":"\n[bcs.announce] ","color":"gray"},{"text":"セットアップを実行しました。セットアップの詳細は\n"},{"text":"Basic control system:data/bcs/functions/setup","color":"yellow"},{"text":" から確認してください。\n"}]
+tellraw @a ["",{"text":"\n[bcs.announce] ","color":"gray"},{"text":"セットアップを実行しました。セットアップの詳細は\n"},{"text":"Basic control system:data/bcs/functions/setup","color":"yellow"},{"text":" から確認してください。\n"}]

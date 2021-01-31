@@ -5,7 +5,7 @@
 			"entries": [
 				{
 					"type": "loot_table",
-					"name": "system:plugin/ammo/12gauge",
+					"name": "bcs:battle_royale/plugin/ammo/12gauge",
 					"weight": 1
 				}
 			]
@@ -15,7 +15,7 @@
 			"entries": [
 				{
 					"type": "item",
-					"name": "minecraft:golden_horse_armor",
+					"name": "minecraft:lime_dye",
 					"weight": 1
 				}
 			]
