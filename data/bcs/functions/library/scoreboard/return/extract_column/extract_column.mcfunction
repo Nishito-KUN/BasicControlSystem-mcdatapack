@@ -1,0 +1,2 @@
+function bcs:library/scoreboard/return/extract_column/remove_pre_column
+function bcs:library/scoreboard/return/extract_column/remove_suffix_column

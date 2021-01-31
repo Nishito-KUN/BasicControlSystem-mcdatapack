@@ -1,0 +1,1 @@
+tellraw @s ["",{"text":"\n[bcs.tell] ","color":"gray"},{"text":"現在ゲーム終了中です。しばらくお待ちください\n"}]

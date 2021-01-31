@@ -1,0 +1,4 @@
+execute if score timer_m bcs.control matches 0..1 if score timer_s bcs.control matches 0..59 if score timer_t bcs.control matches 0..19 run function bcs:game/battle_royale/worldborder/center_to_center
+execute if score timer_m bcs.control matches 0..0 if score timer_s bcs.control matches 0..00 if score timer_t bcs.control matches 0..00 run function bcs:game/battle_royale/general/phase
+execute if score timer_m bcs.control matches 0..0 if score timer_s bcs.control matches 0..00 if score timer_t bcs.control matches 0..00 run function bcs:game/battle_royale/worldborder/change_center
+execute if score timer_m bcs.control matches 0..0 if score timer_s bcs.control matches 0..00 if score timer_t bcs.control matches 0..00 run execute as @a[scores={bcs.join=2..5}] run function bcs:game/battle_royale/message/tellraw/worldborder/changed_center

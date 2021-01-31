@@ -1,1 +1,0 @@
-tellraw @s ["",{"text":"[system]","color":"aqua"},{"text":" "},{"score":{"name":"players","objective":"control"}},{"text":"位 "},{"selector":"@s","color":"white"},{"text":" "},{"score":{"name":"@s","objective":"kill"}},{"text":"キル"}]

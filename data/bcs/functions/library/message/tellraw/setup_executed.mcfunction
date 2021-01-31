@@ -1,1 +1,0 @@
-tellraw @s ["",{"text":"[bcs]","color":"gray"},{"text":" セットアップを実行しました。セットアップの詳細は\n"},{"text":"Basic control system/data/bcs/functions/setup","color":"yellow"},{"text":" から確認してください。"}]

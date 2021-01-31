@@ -1,1 +1,0 @@
-tellraw @s ["",{"text":"[bcs]","color":"gray"},{"text":" ロビーに戻りますか? "},{"text":"ロビーに戻る\n","underlined":true,"clickEvent":{"action":"run_command","value":"/trigger button set 2"}}]

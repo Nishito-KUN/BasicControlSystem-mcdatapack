@@ -1,0 +1,1 @@
+title @s actionbar ["",{"text":"(ロビー) 現在、"},{"score":{"name":"players","objective":"bcs.control"}},{"text":"人がゲームをプレイしています"}]

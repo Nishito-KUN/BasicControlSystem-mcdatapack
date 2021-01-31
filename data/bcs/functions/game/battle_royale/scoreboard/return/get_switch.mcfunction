@@ -1,0 +1,1 @@
+scoreboard players operation return bcs.control = switch bcs.control

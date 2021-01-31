@@ -1,0 +1,1 @@
+title @s actionbar ["",{"score":{"name":"timer_s","objective":"bcs.control"}},{"text":"秒後にゲームを終了します"}]

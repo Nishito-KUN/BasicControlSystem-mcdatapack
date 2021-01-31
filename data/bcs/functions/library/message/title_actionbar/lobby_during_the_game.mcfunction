@@ -1,1 +1,0 @@
-title @a[scores={join=0}] actionbar ["",{"text":"(ロビー) 現在、"},{"score":{"name":"players","objective":"control"}},{"text":"人がゲームをプレイしています"}]

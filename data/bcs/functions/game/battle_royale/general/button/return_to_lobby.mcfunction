@@ -1,7 +1,9 @@
-execute as @s[scores={join=0}] run function system:share/message/tellraw_already_in_the_lobby
-scoreboard players set @s[join=0}] button 0
-execute if score phase control matches 1..17 as @s[scores={button=1}] run execute function system:share/message/tellraw/tellraw_confirm_return_to_lobby
-execute if score phase control matches 1..17 run scoreboard players set @s[scores={button=1}] button 0
-team leave @s[scores={join=4}]
-scoreboard players set @s join 1
-scoreboard players set @s button 0
+execute as @s[scores={bcs.join=0}] run function bcs:library/message/tellraw/tell/already_in_the_lobby
+execute as @s[scores={bcs.join=0}] run scoreboard players set @s bcs.button 0
+
+execute as @s[scores={bcs.button=1}] run execute if score phase bcs.control matches 1..20 run function bcs:library/message/tellraw/button/confirm_return_to_lobby
+execute as @s[scores={bcs.button=1}] run execute if score phase bcs.control matches 1..20 run scoreboard players set @s bcs.button 0
+
+execute as @s[scores={bcs.button=1..2}] run team leave @s[scores={bcs.join=4}]
+execute as @s[scores={bcs.button=1..2}] run scoreboard players set @s bcs.join 1
+execute as @s[scores={bcs.button=1..2}] run scoreboard players set @s bcs.button 0

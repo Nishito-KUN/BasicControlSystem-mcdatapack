@@ -1,1 +1,1 @@
-tellraw @s ["",{"text":"[bcs]","color":"red"},{"text":" ロビーにいる状態で、ロビーの外側に出ることはできません"}]
+tellraw @s ["",{"text":"\n[bcs.error] ","color":"red"},{"text":"ロビーにいる状態で、ロビーの外側に出ることはできません\n"}]

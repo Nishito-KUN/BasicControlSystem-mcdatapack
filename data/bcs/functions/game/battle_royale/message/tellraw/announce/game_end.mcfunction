@@ -1,0 +1,1 @@
+tellraw @a ["",{"text":"\n[bcs.announce] ","color":"gray"},{"selector":"@s"},{"text":"が"},{"score":{"name":"@s","objective":"bcs.kill"}},{"text":"キルで勝利しました。ゲームを終了します。\n"}]

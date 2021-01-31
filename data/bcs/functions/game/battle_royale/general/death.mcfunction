@@ -1,6 +1,6 @@
 execute at @s run spawnpoint @s ~ ~ ~
-team leave @s[scores={join=4}]
-scoreboard players set @s[scores={join=4,button=0}] button 4
-function system:share/message/title/title_you_died
-function system:game_battle_royale/message/tellraw/tellraw_result_when_died
-scoreboard players set @s death 0
+function bcs:library/message/title/you_died
+function bcs:game/battle_royale/message/tellraw/result
+team leave @s[scores={bcs.join=4}]
+scoreboard players set @s[scores={bcs.join=4,bcs.button=0}] bcs.button 4
+scoreboard players set @s bcs.death 0

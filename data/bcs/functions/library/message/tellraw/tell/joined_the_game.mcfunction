@@ -1,0 +1,1 @@
+tellraw @s ["",{"text":"\n[bcs.tell] ","color":"gray"},{"text":"ゲームに参加しました\n"}]

@@ -1,0 +1,3 @@
+title @s[scores={bcs.join=0}] actionbar ["",{"text":"(ロビー) ゲームに参加できます "},{"score":{"name":"players","objective":"bcs.control"}},{"text":"/"},{"score":{"name":"return","objective":"bcs.control"}}]
+title @s[scores={bcs.join=2}] actionbar ["",{"text":"(観戦選択中) プレイヤーを待っています "},{"score":{"name":"players","objective":"bcs.control"}},{"text":"/"},{"score":{"name":"return","objective":"bcs.control"}}]
+title @s[scores={bcs.join=4}] actionbar ["",{"text":"(参加選択中) プレイヤーを待っています "},{"score":{"name":"players","objective":"bcs.control"}},{"text":"/"},{"score":{"name":"return","objective":"bcs.control"}}]

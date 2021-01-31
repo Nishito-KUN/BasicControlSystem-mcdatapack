@@ -1,1 +1,0 @@
-tellraw @s ["",{"text":"[bcs]","color":"gray"},{"text":" 既に参加しています"}]

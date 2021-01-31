@@ -1,1 +1,1 @@
-tellraw @s ["",{"text":"[bcs] ","color":"red"},{"score":{"name":"@s","objective":"bcs.button"}},{"text":"は無効な値です"}]
+tellraw @s ["",{"text":"\n[bcs.error] ","color":"red"},{"score":{"name":"@s","objective":"bcs.button"}},{"text":"は無効な値です\n"}]

@@ -1,1 +1,0 @@
-tellraw @s ["",{"text":"[bcs]","color":"gray"},{"text":" ゲームを観戦しますか? "},{"text":"観戦する\n","underlined":true,"clickEvent":{"action":"run_command","value":"/trigger button set 4"}}]

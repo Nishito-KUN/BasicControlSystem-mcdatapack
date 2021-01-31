@@ -1,0 +1,3 @@
+title @s[scores={bcs.join=0}] actionbar ["",{"text":"(ロビー) "},{"score":{"name":"timer_s","objective":"bcs.control"}},{"text":"秒後にゲームを開始します"}]
+title @s[scores={bcs.join=2}] actionbar ["",{"text":"(観戦選択中) "},{"score":{"name":"timer_s","objective":"bcs.control"}},{"text":"秒後にゲームを開始します"}]
+title @s[scores={bcs.join=4}] actionbar ["",{"text":"(参加選択中) "},{"score":{"name":"timer_s","objective":"bcs.control"}},{"text":"秒後にゲームを開始します"}]
