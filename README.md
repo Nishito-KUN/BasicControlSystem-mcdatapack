@@ -26,7 +26,7 @@ functionsフォルダにはgame、library、mainのフォルダがあり、game�
 | main       | ログイン関連の制御コマンドが入っています。             |
 
 * **スコアボードの解説**  
-詳しくはsetup.mcfunctionと、〈./library/general/initial_settings/scoreboard.mcfunction〉を参照ください。
+詳しくはsetup.mcfunctionと、〈./library/general/initial_settings/scoreboard.mcfunction〉を参照ください。  
 以下に軽いbcs.controlオブジェクトの変数の解説を載せておきます。
 
 | 変数名        | 仕様                                                         |
