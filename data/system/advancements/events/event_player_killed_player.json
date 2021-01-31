@@ -20,6 +20,6 @@
 		}
 	},
 	"rewards": {
-		"function": "system:event/player_killed_player"
+		"function": "system:share/events/player_killed_player"
 	}
 }

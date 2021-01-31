@@ -11,18 +11,19 @@ execute if score phase control matches 2..15 run function system:game_battle_roy
 execute if score phase control matches 2..15 if score players control = end control run function system:game_battle_royale/scoreboards/scoreboard_game_end
 
 #phase:0
-execute if score phase control matches 0 if score players control >= start control run function system:game_battle_royale/messages/tellraw_game
 execute if score phase control matches 0 if score players control >= start control run function system:game_battle_royale/scoreboards/scoreboard_phase
 
 #phase:1
+execute if score phase control matches 1 if score timer_t control matches 20 if score timer_s control matches 30 run function system:game_battle_royale/messages/tellraw_game
 execute if score phase control matches 1 if score timer_t control matches 20 if score timer_s control matches 30 run function system:game_battle_royale/scoreboards/scoreboards_set
 execute if score phase control matches 1 if score timer_t control matches 20 if score timer_s control matches 30 run function system:game_battle_royale/map/map_situation
+execute if score phase control matches 1 if score timer_t control matches 20 if score timer_s control matches 30 run function system:game_battle_royale/worldborder/worldborder_set
 execute if score phase control matches 1 if score timer_t control matches 20 if score timer_s control matches 10 run function system:game_battle_royale/map/map_set
 execute if score phase control matches 1 if score timer_t control matches 0 if score timer_s control matches 0 run function system:game_battle_royale/players/players_set
-execute if score phase control matches 1 if score timer_t control matches 0 if score timer_s control matches 0 run function system:game_battle_royale/messages/tellraw_game
 execute if score phase control matches 1 if score timer_t control matches 0 if score timer_s control matches 0 run function system:game_battle_royale/scoreboards/scoreboard_phase
 
 #phase:2
+execute if score phase control matches 2 if score timer_t control matches 20 if score timer_s control matches 0 if score timer_m control matches 2 run function system:game_battle_royale/messages/tellraw_game
 execute if score phase control matches 2 if score timer_t control matches 0 if score timer_s control matches 0 if score timer_m control matches 0 run function system:game_battle_royale/scoreboards/scoreboard_phase
 
 #phase:3

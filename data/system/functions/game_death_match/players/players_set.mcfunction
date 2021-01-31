@@ -3,13 +3,13 @@
 execute if score phase control matches 1 run gamemode spectator @a[scores={join=2}]
 execute if score phase control matches 1 run clear @a[scores={join=2}]
 execute if score phase control matches 1 run effect clear @a[scores={join=2}]
-execute if score phase control matches 1 at @e[type=minecraft:armor_stand,name=center] run spreadplayers ~ ~ 10 50 false @a[scores={join=2}]
+execute if score phase control matches 1 at @e[type=minecraft:armor_stand,name=worldborder_center] run spreadplayers ~ ~ 10 50 false @a[scores={join=2}]
 
 execute if score phase control matches 1 run team join game @a[scores={join=4}]
 execute if score phase control matches 1 run scoreboard players set @a[scores={join=4}] kill 0
 execute if score phase control matches 1 run effect clear @a[scores={join=4}]
 execute if score phase control matches 1 as @a[scores={join=4}] run function system:game_death_match/players/players_set_items
-execute if score phase control matches 1 at @e[type=minecraft:armor_stand,name=center] run spreadplayers ~ ~ 10 50 false @a[scores={join=4}]
+execute if score phase control matches 1 at @e[type=minecraft:armor_stand,name=worldborder_center] run spreadplayers ~ ~ 10 50 false @a[scores={join=4}]
 execute if score phase control matches 1 run title @a[scores={join=4}] times 10 40 10
 execute if score phase control matches 1 run title @a[scores={join=4}] title {"text":"ＦＩＧＨＴ ！"}
 

@@ -9,10 +9,10 @@ execute if score phase control matches 0..4 run function system:game_zombie_esca
 execute if score phase control matches 2 if score players control matches 0 run function system:game_zombie_escape/scoreboards/scoreboard_game_end
 
 #phase:0
-execute if score phase control matches 0 if score players control >= start control run function system:game_zombie_escape/messages/tellraw_game
 execute if score phase control matches 0 if score players control >= start control run function system:game_zombie_escape/scoreboards/scoreboard_phase
 
 #phase:1
+execute if score phase control matches 1 if score timer_t control matches 20 if score timer_s control matches 10 run function system:game_zombie_escape/messages/tellraw_game
 execute if score phase control matches 1 if score timer_t control matches 20 if score timer_s control matches 10 run function system:game_zombie_escape/scoreboards/scoreboards_set
 execute if score phase control matches 1 if score timer_t control matches 20 if score timer_s control matches 10 run function system:game_zombie_escape/others/configuration
 execute if score phase control matches 1 if score timer_t control matches 20 if score timer_s control matches 10 run function system:game_zombie_escape/map/map_situation

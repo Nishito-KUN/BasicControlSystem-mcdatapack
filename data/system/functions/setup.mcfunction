@@ -20,10 +20,6 @@ team add game
 team modify game color aqua
 team modify game nametagVisibility hideForOwnTeam
 
-execute unless entity @e[type=armor_stand,name=center] run summon armor_stand 448 256 448 {CustomName:"\"center\"",NoGravity:1b,Small:1,Marker:1b,ArmorItems:[{},{},{},{id:"minecraft:lime_concrete",Count:1b}],Pose:{Head:[180f,0f,0f]}}
-execute unless entity @e[type=armor_stand,name=center_set] run summon armor_stand 448 256 448 {CustomName:"\"center_set\"",NoGravity:1b,Small:1,Marker:1b,ArmorItems:[{},{},{},{id:"minecraft:light_blue_concrete",Count:1b}],Pose:{Head:[180f,0f,0f]}}
-tp @e[type=minecraft:armor_stand,name=center] 448.0 256 448.0
-tp @e[type=minecraft:armor_stand,name=center_set] 448.0 256 448.0
 worldborder center 448.0 448.0
 worldborder set 1024
 worldborder damage buffer 0
@@ -65,10 +61,7 @@ tellraw @s ["",{"text":"[system]","color":"gray"},{"text":" チーム [game] の
 tellraw @s ["",{"text":"[system]","color":"gray"},{"text":" チーム [game] の color を [aqua] に設定しました"}]
 tellraw @s ["",{"text":"[system]","color":"gray"},{"text":" チーム [game] の nametagVisibility を [hideForOwnTeam] に設定しました"}]
 
-tellraw @s ["",{"text":"[system]","color":"gray"},{"text":" armor_stand [center] を [448 448] に設置しました"}]
-tellraw @s ["",{"text":"[system]","color":"gray"},{"text":" armor_stand [center_set] を [448 448] に設置しました"}]
-
-tellraw @s ["",{"text":"[system]","color":"gray"},{"text":" worldborder の center を [448 448] に設定しました"}]
+tellraw @s ["",{"text":"[system]","color":"gray"},{"text":" worldborder の 中心 を [448 448] に設定しました"}]
 tellraw @s ["",{"text":"[system]","color":"gray"},{"text":" worldborder の 範囲 を [1024] に設定しました"}]
 tellraw @s ["",{"text":"[system]","color":"gray"},{"text":" worldborder の damage buffer を [0] に設定しました"}]
 tellraw @s ["",{"text":"[system]","color":"gray"},{"text":" worldborder の damage amount を [0.01] に設定しました"}]
@@ -85,4 +78,4 @@ tellraw @s ["",{"text":"[system]","color":"gray"},{"text":" ゲームルール �
 tellraw @s ["",{"text":"[system]","color":"gray"},{"text":" ゲームルール の sendCommandFeedback を [false] に設定しました"}]
 tellraw @s ["",{"text":"[system]","color":"gray"},{"text":" ゲームルール の spectatorsGenerateChunks を [false] に設定しました"}]
 
-tellraw @s ["",{"text":"[system]","color":"gray"},{"text":" セットアップが完了しました。"},{"text":"datapacks:fight_3.0_pack/memo_command","color":"yellow"},{"text":"のforceloadを実行してください"}]
+tellraw @s ["",{"text":"[system]","color":"gray"},{"text":" セットアップが完了しました。"},{"text":"datapacks:fight_3.0/memo_commands","color":"yellow"},{"text":"のforceloadを実行してください"}]

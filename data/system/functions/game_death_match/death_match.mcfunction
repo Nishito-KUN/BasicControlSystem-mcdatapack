@@ -6,12 +6,13 @@ execute if score phase control matches 0..4 run function system:game_death_match
 execute if score phase control matches 0..4 run function system:game_death_match/players/player_death
 execute if score phase control matches 0..4 run function system:game_death_match/scoreboards/scoreboard_players
 execute if score phase control matches 0..4 run function system:game_death_match/messages/title_actionbar
+execute if score phase control matches 2..4 if score game control matches 5 run function system:game_death_match/others/arrow_faster
 
 #phase:0
-execute if score phase control matches 0 if score players control >= start control run function system:game_death_match/messages/tellraw_game
 execute if score phase control matches 0 if score players control >= start control run function system:game_death_match/scoreboards/scoreboard_phase
 
 #phase:1
+execute if score phase control matches 1 if score timer_t control matches 20 if score timer_s control matches 10 run function system:game_death_match/messages/tellraw_game
 execute if score phase control matches 1 if score timer_t control matches 20 if score timer_s control matches 10 run function system:game_death_match/scoreboards/scoreboards_set
 execute if score phase control matches 1 if score timer_t control matches 20 if score timer_s control matches 10 run function system:game_death_match/others/configuration
 execute if score phase control matches 1 if score timer_t control matches 20 if score timer_s control matches 10 run function system:game_death_match/map/map_situation

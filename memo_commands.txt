@@ -1,12 +1,12 @@
-/summon armor_stand 448 256 448 {CustomName:"\"center\"",NoGravity:1b,Small:1,Marker:1b,ArmorItems:[{},{},{},{id:"minecraft:lime_concrete",Count:1b}],Pose:{Head:[180f,0f,0f]}}
-/summon armor_stand 448 256 448 {CustomName:"\"center_set\"",NoGravity:1b,Small:1,Marker:1b,ArmorItems:[{},{},{},{id:"minecraft:light_blue_concrete",Count:1b}],Pose:{Head:[180f,0f,0f]}}
+/summon armor_stand 448 256 448 {CustomName:"{\"text\":\"worldborder_center\"}",NoGravity:1b,Small:1b,Marker:1b,ArmorItems:[{},{},{},{id:"minecraft:lime_concrete",Count:1b}],Pose:{Head:[180f,0f,0f]}}
+/summon armor_stand 448 256 448 {CustomName:"{\"text\":\"worldborder_center_objective\"}",NoGravity:1b,Small:1b,Marker:1b,ArmorItems:[{},{},{},{id:"minecraft:light_blue_concrete",Count:1b}],Pose:{Head:[180f,0f,0f]}}
 
-/summon armor_stand ~ ~ ~ {CustomName:"\"item_chest\"",Tags:["east"],Small:1,Marker:1b,ArmorItems:[{},{},{},{id:"minecraft:yellow_concrete",Count:1b}],Pose:{Head:[180f,0f,0f]}}
-/summon armor_stand ~ ~ ~ {CustomName:"\"item_chest\"",Tags:["north"],Small:1,Marker:1b,ArmorItems:[{},{},{},{id:"minecraft:yellow_concrete",Count:1b}],Pose:{Head:[180f,0f,0f]}}
-/summon armor_stand ~ ~ ~ {CustomName:"\"item_chest\"",Tags:["south"],Small:1,Marker:1b,ArmorItems:[{},{},{},{id:"minecraft:yellow_concrete",Count:1b}],Pose:{Head:[180f,0f,0f]}}
-/summon armor_stand ~ ~ ~ {CustomName:"\"item_chest\"",Tags:["west"],Small:1,Marker:1b,ArmorItems:[{},{},{},{id:"minecraft:yellow_concrete",Count:1b}],Pose:{Head:[180f,0f,0f]}}
+/summon armor_stand ~ ~ ~ {CustomName:"{\"text\":\"chest\"}",Tags:["east"],Small:1b,Marker:1b,ArmorItems:[{},{},{},{id:"minecraft:yellow_concrete",Count:1b}],Pose:{Head:[180f,0f,0f]}}
+/summon armor_stand ~ ~ ~ {CustomName:"{\"text\":\"chest\"}",Tags:["north"],Small:1b,Marker:1b,ArmorItems:[{},{},{},{id:"minecraft:yellow_concrete",Count:1b}],Pose:{Head:[180f,0f,0f]}}
+/summon armor_stand ~ ~ ~ {CustomName:"{\"text\":\"chest\"}",Tags:["south"],Small:1b,Marker:1b,ArmorItems:[{},{},{},{id:"minecraft:yellow_concrete",Count:1b}],Pose:{Head:[180f,0f,0f]}}
+/summon armor_stand ~ ~ ~ {CustomName:"{\"text\":\"chest\"}",Tags:["west"],Small:1b,Marker:1b,ArmorItems:[{},{},{},{id:"minecraft:yellow_concrete",Count:1b}],Pose:{Head:[180f,0f,0f]}}
 
-/tag @e[type=minecraft:armor_stand,name=item_chest,distance=..1] add double
+/tag @e[type=minecraft:armor_stand,name=chest,distance=..1] add double
 
 /forceload add -55 -55 180 180
 /forceload add -55 200 180 440

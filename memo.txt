@@ -1,6 +1,6 @@
 memo.txt
 ---------------------------------------------------------------------------------------------------
-‚±‚Ìƒf[ƒ^ƒpƒbƒN‚ð‘¼‚Ìƒ[ƒ‹ƒh‚ÅŽg—p‚·‚éŽž‚ÉA•ÏX‚ª•K—v‚È‰ÓŠ‚ð‚Ü‚Æ‚ß‚Ä‚¨‚«‚Ü‚·
+‚±‚Ìƒf[ƒ^ƒpƒbƒN‚ð‘¼‚Ìƒ[ƒ‹ƒh‚ÅŽg—p‚·‚éŽž‚É•K—v‚È•ÏX‰ÓŠ‚ð‚Ü‚Æ‚ß‚Ä‚¨‚«‚Ü‚·
 ˆÈ‰º‚ÌŒÂŠ‚ðƒ[ƒ‹ƒh‚É‡‚¤‚æ‚¤‚É•ÏX‚µ‚Ä‚­‚¾‚³‚¢
 
 ƒƒr[‚Í•K‚¸ƒ[ƒ‹ƒhƒ{[ƒ_[‚ÌŠO‘¤‚Éì‚Á‚Ä‚­‚¾‚³‚¢
@@ -14,60 +14,64 @@ system:advancements/welcome/line: 17..27 - ”ÍˆÍ‚ðŽg—p‚·‚éƒ[ƒ‹ƒh‚Ìƒƒr[‚ÉÝ’è‚
 battle_royale‚Ì•ÏX‰ÓŠ‚Ímemo_game_battle_royale‚É‚Ü‚Æ‚ß‚Ä‚¢‚Ü‚·
 death_match‚Ì•ÏX‰ÓŠ‚Ímemo_game_death_match‚É‚Ü‚Æ‚ß‚Ä‚¢‚Ü‚·
 ---------------------------------------------------------------------------------------------------
-control: game
+control (dummy): game
 ..-1 = –¢Ý’è
-0 = –³‘€ì
-1 = battle_royale
-2 = battle_royale_plus
-3 = free_for_all
-4 = free_for_all_plus
-5 = instagib
-6 = instagib_plus
-7 = zombie_escape 
-8 = run away from ogre
-9.. = –¢Ý’è
+0    = –³‘€ì
+1    = battle_royale
+2    = battle_royale_plus
+3    = free_for_all
+4    = free_for_all_plus
+5    = instagib
+6    = instagib_plus
+7    = zombie_escape 
+8    = zombie_escape_plus
+9    = run away from ogre
+10.. = –¢Ý’è
 ---------------------------------------------------------------------------------------------------
 join (leavegame)
-..-3 = –¢Ý’è
+..-3    = –¢Ý’è
 -2..-1 = ì‹Æ—p
-0..1 = ƒƒr[
-2..3 = ŠÏí
-4..5 = ŽQ‰Á
-6.. = –¢Ý’è
+0..1    = ƒƒr[
+2..3    = ŠÏí
+4..5    = ŽQ‰Á
+6..      = –¢Ý’è
 ---------------------------------------------------------------------------------------------------
 button (trigger)
 ..-1 = –¢Ý’è
-0 = –³‘€ì
-1 = ƒƒr[‚É–ß‚é
-2 = ƒƒr[‚É–ß‚é2
-3 = ŠÏí
-4 = ŠÏí2
-5 = ŽQ‰Á
-6.. = –¢Ý’è
+0    = –³‘€ì
+1    = ƒƒr[‚É–ß‚é
+2    = ƒƒr[‚É–ß‚é2
+3    = ŠÏí
+4    = ŠÏí2
+5    = ŽQ‰Á
+6..  = –¢Ý’è
 ---------------------------------------------------------------------------------------------------
-bugs
-ƒ^ƒCƒ}[‚ª0•ª0•b‚ÌŽž‚Ì‚Ý0tick‚ðo—Í‚·‚é
-‚È‚Ì‚Åƒ^ƒCƒ}[‚Ì“r’†‚ÅŽÀs‚³‚ê‚éƒRƒ}ƒ“ƒh‚Í20tick‚ÅŽÀs‚µ‚È‚¯‚ê‚Î‚È‚ç‚È‚¢(Žd—l‚¾‚ª•ÏX‚àŒŸ“¢)
+bugs and specifications
+Eƒ^ƒCƒ}[‚ª0•ª0•b‚ÌŽž‚Ì‚Ý0tick‚ðo—Í‚·‚é
+@‚È‚Ì‚Åƒ^ƒCƒ}[‚Ì“r’†‚ÅŽÀs‚³‚ê‚éƒRƒ}ƒ“ƒh‚Í20tick‚ÅŽÀs‚µ‚È‚¯‚ê‚Î‚È‚ç‚È‚¢(Žd—l‚¾‚ª•ÏX‚àŒŸ“¢)
 
-ƒQ[ƒ€ŽQ‰Á’†‚ÉƒGƒ“ƒ_[ƒp[ƒ‹‚ð^ã‚É“Š‚°A’…’e‚·‚é‘O‚Éƒƒr[‚É–ß‚è‰º‚ðŒü‚¢‚Ä¶ƒNƒŠƒbƒN‚ð˜A‘Å‚·‚é
-ƒGƒ“ƒ_[ƒp[ƒ‹‚ª’…’e‚µƒeƒŒƒ|[ƒg‚·‚é‚Æƒƒr[‚É–ß‚³‚ê‚é‚ªA–ß‚³‚ê‚é‚Ü‚Å‚Ìˆêu‚¾‚¯ƒtƒB[ƒ‹ƒh‚ÌƒuƒƒbƒN‚ð”j‰ó‚Å‚«‚é(C³•s‰Â)
+EƒQ[ƒ€ŽQ‰Á’†‚ÉƒGƒ“ƒ_[ƒp[ƒ‹‚ð^ã‚É“Š‚°A’…’e‚·‚é‘O‚Éƒƒr[‚É–ß‚è‰º‚ðŒü‚¢‚Ä¶ƒNƒŠƒbƒN‚ð˜A‘Å‚·‚é
+@ƒGƒ“ƒ_[ƒp[ƒ‹‚ª’…’e‚µƒeƒŒƒ|[ƒg‚·‚é‚Æƒƒr[‚É–ß‚³‚ê‚é‚ªA–ß‚³‚ê‚é‚Ü‚Å‚Ìˆêu‚¾‚¯ƒtƒB[ƒ‹ƒh‚ÌƒuƒƒbƒN‚ð”j‰ó‚Å‚«‚é(C³•s‰Â)
 
-ƒQ[ƒ€‚ÅŽ€–S‚µ‚ÄƒQ[ƒ€ƒI[ƒo[ƒƒjƒ…[‚ð•\Ž¦‚µ‚½‚Ü‚ÜŽŽ‡‚ªI—¹‚·‚é‚Ü‚Å‘Ò‚¿AƒŠƒXƒ|[ƒ“‚µ‚½Žž
-ƒGƒtƒFƒNƒg‚ªƒŠƒZƒbƒg‚³‚ê‚é‚½‚ßƒƒr[‚Å”ñ“§–¾‚É‚È‚é(C³•s‰Â)
+EƒQ[ƒ€‚ÅŽ€–S‚µ‚ÄƒQ[ƒ€ƒI[ƒo[ƒƒjƒ…[‚ð•\Ž¦‚µ‚½‚Ü‚ÜŽŽ‡‚ªI—¹‚·‚é‚Ü‚Å‘Ò‚¿AƒŠƒXƒ|[ƒ“‚µ‚½Žž
+@ƒGƒtƒFƒNƒg‚ªƒŠƒZƒbƒg‚³‚ê‚é‚½‚ßƒƒr[‚Å”ñ“§–¾‚É‚È‚é(C³•s‰Â)
 
-“Ç‚Ýž‚Ü‚ê‚Ä‚¢‚È‚¢ƒ`ƒƒƒ“ƒN‚Éarmor_stand‚ðtp‚·‚é‚ÆƒfƒXƒ|[ƒ“‚µ‚Ä‚µ‚Ü‚¤
-tp‚Æ“¯Žž‚Étpæ‚ðworldspawn”ÍˆÍ‚ÉÝ’è‚µ‚Ä‚àƒfƒXƒ|[ƒ“‚µ‚½
-‘¼‚Ìentity‚Å‚ÍŒŸØ‚µ‚Ä‚¢‚È‚¢‚ª‚¨‚»‚ç‚­ƒfƒXƒ|[ƒ“‚·‚é‚¾‚ë‚¤
-1.13.2‚ÅV‚½‚ÉŽÀ‘•‚³‚ê‚½forceloadƒRƒ}ƒ“ƒh‚È‚Ç‚Åtpæ‚ð—\‚ß“Ç‚Ýž‚Þ‚±‚Æ‚ÅƒfƒXƒ|[ƒ“‚ð‰ñ”ð‚Å‚«‚é
+E“Ç‚Ýž‚Ü‚ê‚Ä‚¢‚È‚¢ƒ`ƒƒƒ“ƒN‚Éarmor_stand‚ðtp‚·‚é‚ÆƒfƒXƒ|[ƒ“‚µ‚Ä‚µ‚Ü‚¤
+@tp‚Æ“¯Žž‚Étpæ‚ðworldspawn”ÍˆÍ‚ÉÝ’è‚µ‚Ä‚àƒfƒXƒ|[ƒ“‚µ‚½
+@‘¼‚Ìentity‚Å‚ÍŒŸØ‚µ‚Ä‚¢‚È‚¢‚ª‚¨‚»‚ç‚­ƒfƒXƒ|[ƒ“‚·‚é‚¾‚ë‚¤
+@1.13.2‚ÅV‚½‚ÉŽÀ‘•‚³‚ê‚½forceloadƒRƒ}ƒ“ƒh‚È‚Ç‚Åtpæ‚ð—\‚ß“Ç‚Ýž‚Þ‚±‚Æ‚ÅƒfƒXƒ|[ƒ“‚ð‰ñ”ð‚Å‚«‚é
 
-ƒCƒ“ƒxƒ“ƒgƒŠ‚Ìƒƒjƒ…[‚Å“¯‚¶‘€ì‚ð‚Q‰ñˆÈãs‚¤‚Æ“¯Šú‚¸‚ê‚ª”­¶‚µ
-ƒAƒCƒeƒ€‚ªƒŠƒZƒbƒg‚³‚ê‚È‚¢(C³•s‰Â)
+EƒCƒ“ƒxƒ“ƒgƒŠ‚Ìƒƒjƒ…[‚Å“¯‚¶‘€ì‚ð‚Q‰ñˆÈãs‚¤‚Æ“¯Šú‚¸‚ê‚ª”­¶‚µ
+@ƒAƒCƒeƒ€‚ªƒŠƒZƒbƒg‚³‚ê‚È‚¢(C³•s‰Â)
+
+Eƒ}ƒEƒXƒ|ƒCƒ“ƒ^‚ÉƒAƒCƒeƒ€‚ðŽ‚Á‚Ä‚¢‚éó‘Ô‚ÅƒQ[ƒ€ƒ‚[ƒh‚ð•ÏX‚·‚é‚ÆAƒ}ƒEƒXƒ|ƒCƒ“ƒ^‚ÌƒAƒCƒeƒ€‚ÍÁ–Å‚·‚éB
+@ƒCƒ“ƒxƒ“ƒgƒŠƒƒjƒ…[‚È‚Ç‚É‰ž—p‚Å‚«‚éB
 ---------------------------------------------------------------------------------------------------
 ’n}‚Ì’†S
-[kŽÚ1:1 ƒŒƒxƒ‹0/4]: 0 ~ 0
-[kŽÚ1:2 ƒŒƒxƒ‹1/4]: 64 ~ 64
-[kŽÚ1:4 ƒŒƒxƒ‹2/4]: 192 ~ 192
-[kŽÚ1:8 ƒŒƒxƒ‹3/4]: 448 ~ 448
+[kŽÚ1:1   ƒŒƒxƒ‹0/4]: 0 ~ 0
+[kŽÚ1:2   ƒŒƒxƒ‹1/4]: 64 ~ 64
+[kŽÚ1:4   ƒŒƒxƒ‹2/4]: 192 ~ 192
+[kŽÚ1:8   ƒŒƒxƒ‹3/4]: 448 ~ 448
 [kŽÚ1:16 ƒŒƒxƒ‹4/4]: 960 ~ 960
 ---------------------------------------------------------------------------------------------------
 ƒ}ƒbƒv”ÍˆÍ = 1,024 block x 1,024 block (1,048,576 block)

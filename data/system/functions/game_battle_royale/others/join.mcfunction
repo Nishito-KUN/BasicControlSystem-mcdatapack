@@ -30,4 +30,6 @@ effect give @a[scores={join=1}] instant_health 1 5 true
 effect give @a[scores={join=1}] invisibility 100000 0 true
 tellraw @a[scores={join=1}] ["",{"text":"[system]","color":"aqua"},{"text":" "},{"text":"ゲームに参加","underlined":true,"clickEvent":{"action":"run_command","value":"/trigger button set 5"}},{"text":" "},{"text":"ゲームを観戦","underlined":true,"clickEvent":{"action":"run_command","value":"/trigger button set 3"}},{"text":" "},{"text":"ロビーに戻る\n","underlined":true,"clickEvent":{"action":"run_command","value":"/trigger button set 1"}}]
 scoreboard players set @a[scores={join=1}] join 0
+
+#join:0
 execute as @a[scores={join=0}] run function system:game_battle_royale/others/inventory
