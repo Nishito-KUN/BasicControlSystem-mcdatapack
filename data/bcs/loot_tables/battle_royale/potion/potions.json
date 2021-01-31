@@ -1,0 +1,59 @@
+{
+	"pools": [
+		{
+			"rolls": 1,
+			"entries": [
+				{
+					"type": "loot_table",
+					"name": "bcs:battle_royale/potion/fire_resistance_potion",
+					"weight": 1
+				},
+				{
+					"type": "loot_table",
+					"name": "bcs:battle_royale/potion/healing_potion",
+					"weight": 1
+				},
+				{
+					"type": "loot_table",
+					"name": "bcs:battle_royale/potion/invisibility_potion",
+					"weight": 1
+				},
+				{
+					"type": "loot_table",
+					"name": "bcs:battle_royale/potion/leaping_potion",
+					"weight": 1
+				},
+				{
+					"type": "loot_table",
+					"name": "bcs:battle_royale/potion/night_vision_potion",
+					"weight": 1
+				},
+				{
+					"type": "loot_table",
+					"name": "bcs:battle_royale/potion/regeneration_potion",
+					"weight": 1
+				},
+				{
+					"type": "loot_table",
+					"name": "bcs:battle_royale/potion/strength_potion",
+					"weight": 1
+				},
+				{
+					"type": "loot_table",
+					"name": "bcs:battle_royale/potion/swiftness_potion",
+					"weight": 1
+				},
+				{
+					"type": "loot_table",
+					"name": "bcs:battle_royale/potion/turtle_master_potion",
+					"weight": 1
+				},
+				{
+					"type": "loot_table",
+					"name": "bcs:battle_royale/potion/water_breathing_potion",
+					"weight": 1
+				}
+			]
+		}
+	]
+}

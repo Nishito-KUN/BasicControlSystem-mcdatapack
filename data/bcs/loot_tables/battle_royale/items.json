@@ -1,0 +1,80 @@
+{
+	"pools": [
+		{
+			"rolls": {
+				"min": 0,
+				"max": 1
+			},
+			"entries": [
+				{
+					"type": "loot_table",
+					"name": "bcs:battle_royale/food/food",
+					"weight": 1
+				}
+			]
+		},
+		{
+			"rolls": {
+				"min": 0,
+				"max": 1
+			},
+			"entries": [
+				{
+					"type": "loot_table",
+					"name": "bcs:battle_royale/food/food",
+					"weight": 1
+				},
+				{
+					"type": "loot_table",
+					"name": "bcs:battle_royale/potion/potions",
+					"weight": 1
+				},
+				{
+					"type": "loot_table",
+					"name": "bcs:battle_royale/splash_potion/splash_potions",
+					"weight": 1
+				},
+				{
+					"type": "loot_table",
+					"name": "bcs:battle_royale/uncategorized/uncategorized_items",
+					"weight": 1
+				}
+			]
+		},
+		{
+			"rolls": 1,
+			"entries": [
+				{
+					"type": "loot_table",
+					"name": "bcs:battle_royale/food/food",
+					"weight": 1
+				},
+				{
+					"type": "loot_table",
+					"name": "bcs:battle_royale/potion/potions",
+					"weight": 1
+				},
+				{
+					"type": "loot_table",
+					"name": "bcs:battle_royale/splash_potion/splash_potions",
+					"weight": 1
+				},
+				{
+					"type": "loot_table",
+					"name": "bcs:battle_royale/uncategorized/uncategorized_items",
+					"weight": 1
+				},
+				{
+					"type": "loot_table",
+					"name": "bcs:battle_royale/armor/armors",
+					"weight": 3
+				},
+				{
+					"type": "loot_table",
+					"name": "bcs:battle_royale/weapon/weapons",
+					"weight": 3
+				}
+			]
+		}
+	]
+}

@@ -1,0 +1,57 @@
+{
+	"pools": [
+		{
+			"rolls": {
+				"min": 0,
+				"max": 1
+			},
+			"entries": [
+				{
+					"type": "loot_table",
+					"name": "bcs:battle_royale/armor/helmet",
+					"weight": 1
+				},
+				{
+					"type": "loot_table",
+					"name": "bcs:battle_royale/armor/chestplate",
+					"weight": 1
+				},
+				{
+					"type": "loot_table",
+					"name": "bcs:battle_royale/armor/leggings",
+					"weight": 1
+				},
+				{
+					"type": "loot_table",
+					"name": "bcs:battle_royale/armor/boots",
+					"weight": 1
+				}
+			]
+		},
+		{
+			"rolls": 1,
+			"entries": [
+				{
+					"type": "loot_table",
+					"name": "bcs:battle_royale/armor/helmet",
+					"weight": 1
+				},
+				{
+					"type": "loot_table",
+					"name": "bcs:battle_royale/armor/chestplate",
+					"weight": 1
+				},
+				{
+					"type": "loot_table",
+					"name": "bcs:battle_royale/armor/leggings",
+					"weight": 1
+				},
+				{
+					"type": "loot_table",
+					"name": "bcs:battle_royale/armor/boots",
+					"weight": 1
+				}
+			]
+		}
+	]
+}

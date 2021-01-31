@@ -1,7 +1,7 @@
 execute if score phase bcs.control matches 20 run scoreboard players set timer_m bcs.control 0
 execute if score phase bcs.control matches 20 run scoreboard players set timer_s bcs.control 20
 
-execute if score phase bcs.control matches 19 run scoreboard players set timer_m bcs.control 0
+execute if score phase bcs.control matches 19 run scoreboard players set timer_m bcs.control 1
 execute if score phase bcs.control matches 19 run scoreboard players set timer_s bcs.control 0
 
 execute if score phase bcs.control matches 18 run scoreboard players set timer_m bcs.control 0

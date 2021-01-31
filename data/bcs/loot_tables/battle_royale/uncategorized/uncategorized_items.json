@@ -1,0 +1,52 @@
+{
+	"pools": [
+		{
+			"rolls": {
+				"min": 1,
+				"max": 2
+			},
+			"entries": [
+				{
+					"type": "loot_table",
+					"name": "bcs:battle_royale/uncategorized/totem_of_undying",
+					"weight": 1
+				},
+				{
+					"type": "loot_table",
+					"name": "bcs:battle_royale/uncategorized/ender_perarl",
+					"weight": 3
+				},
+				{
+					"type": "loot_table",
+					"name": "bcs:battle_royale/uncategorized/milk_bucket",
+					"weight": 3
+				},
+				{
+					"type": "loot_table",
+					"name": "bcs:battle_royale/uncategorized/trident",
+					"weight": 3
+				},
+				{
+					"type": "loot_table",
+					"name": "bcs:battle_royale/uncategorized/turtle_helmet",
+					"weight": 3
+				},
+				{
+					"type": "loot_table",
+					"name": "bcs:battle_royale/uncategorized/egg",
+					"weight": 4
+				},
+				{
+					"type": "loot_table",
+					"name": "bcs:battle_royale/uncategorized/fishing_rod",
+					"weight": 4
+				},
+				{
+					"type": "loot_table",
+					"name": "bcs:battle_royale/uncategorized/snowball",
+					"weight": 4
+				}
+			]
+		}
+	]
+}

@@ -1,0 +1,44 @@
+{
+	"pools": [
+		{
+			"rolls": 1,
+			"entries": [
+				{
+					"type": "loot_table",
+					"name": "bcs:battle_royale/weapon/arrow/arrow",
+					"weight": 1
+				},
+				{
+					"type": "loot_table",
+					"name": "bcs:battle_royale/weapon/arrow/harming_arrow",
+					"weight": 1
+				},
+				{
+					"type": "loot_table",
+					"name": "bcs:battle_royale/weapon/arrow/levitation_arrow",
+					"weight": 1
+				},
+				{
+					"type": "loot_table",
+					"name": "bcs:battle_royale/weapon/arrow/poison_arrow",
+					"weight": 1
+				},
+				{
+					"type": "loot_table",
+					"name": "bcs:battle_royale/weapon/arrow/slowness_arrow",
+					"weight": 1
+				},
+				{
+					"type": "loot_table",
+					"name": "bcs:battle_royale/weapon/arrow/spectral_arrow",
+					"weight": 1
+				},
+				{
+					"type": "loot_table",
+					"name": "bcs:battle_royale/weapon/arrow/weakness_arrow",
+					"weight": 1
+				}
+			]
+		}
+	]
+}

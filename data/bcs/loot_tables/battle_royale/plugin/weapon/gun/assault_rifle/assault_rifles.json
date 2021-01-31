@@ -1,0 +1,29 @@
+{
+	"pools": [
+		{
+			"rolls": 1,
+			"entries": [
+				{
+					"type": "loot_table",
+					"name": "bcs:battle_royale/plugin/weapon/gun/assault_rifle/akm",
+					"weight": 1
+				},
+				{
+					"type": "loot_table",
+					"name": "bcs:battle_royale/plugin/weapon/gun/assault_rifle/m16a4",
+					"weight": 1
+				},
+				{
+					"type": "loot_table",
+					"name": "bcs:battle_royale/plugin/weapon/gun/assault_rifle/m416",
+					"weight": 1
+				},
+				{
+					"type": "loot_table",
+					"name": "bcs:battle_royale/plugin/weapon/gun/assault_rifle/scar-l",
+					"weight": 1
+				}
+			]
+		}
+	]
+}

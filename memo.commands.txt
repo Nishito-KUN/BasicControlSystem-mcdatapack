@@ -1,8 +1,4 @@
-summon armor_stand ~ ~ ~ {CustomName:"{\"text\":\"bcs.chest\"}",Tags:["east"],Small:1b,Marker:1b,ArmorItems:[{},{},{},{id:"minecraft:yellow_concrete",Count:1b}],Pose:{Head:[180f,0f,0f]}}
-summon armor_stand ~ ~ ~ {CustomName:"{\"text\":\"bcs.chest\"}",Tags:["north"],Small:1b,Marker:1b,ArmorItems:[{},{},{},{id:"minecraft:yellow_concrete",Count:1b}],Pose:{Head:[180f,0f,0f]}}
-summon armor_stand ~ ~ ~ {CustomName:"{\"text\":\"bcs.chest\"}",Tags:["south"],Small:1b,Marker:1b,ArmorItems:[{},{},{},{id:"minecraft:yellow_concrete",Count:1b}],Pose:{Head:[180f,0f,0f]}}
-summon armor_stand ~ ~ ~ {CustomName:"{\"text\":\"bcs.chest\"}",Tags:["west"],Small:1b,Marker:1b,ArmorItems:[{},{},{},{id:"minecraft:yellow_concrete",Count:1b}],Pose:{Head:[180f,0f,0f]}}
-tag @e[type=minecraft:armor_stand,name=chest,distance=..1] add double
+summon armor_stand ~ ~-0.5 ~ {CustomName:"{\"text\":\"bcs.chest\"}",Small:1b,Marker:1b,ArmorItems:[{},{},{},{id:"minecraft:gray_concrete",Count:1b}],Pose:{Head:[180f,0f,0f]}}
 ---------------------------------------------------------------------------------------------------
 #fight3.0
 forceload add -55 -55 180 180

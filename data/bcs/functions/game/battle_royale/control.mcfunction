@@ -11,6 +11,7 @@ execute if score phase bcs.control matches 2..19 run function bcs:game/battle_ro
 execute if score phase bcs.control matches 0 run function bcs:game/battle_royale/phase/phase_0
 execute if score phase bcs.control matches 1 run function bcs:game/battle_royale/phase/phase_1
 execute if score phase bcs.control matches 2 run function bcs:game/battle_royale/phase/phase_2
+execute if score phase bcs.control matches 19 run function bcs:game/battle_roale/phase/empty_phase
 execute if score phase bcs.control matches 20 run function bcs:game/battle_royale/phase/end_phase
 execute if score switch bcs.control matches 1 run function bcs:game/battle_royale/phase/waiting_phase
 execute if score switch bcs.control matches 2 run function bcs:game/battle_royale/phase/contraction_phase

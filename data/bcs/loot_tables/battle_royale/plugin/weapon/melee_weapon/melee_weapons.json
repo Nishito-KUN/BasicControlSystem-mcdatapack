@@ -1,0 +1,29 @@
+{
+	"pools": [
+		{
+			"rolls": 1,
+			"entries": [
+				{
+					"type": "loot_table",
+					"name": "bcs:battle_royale/plugin/weapon/melee_weapon/pan",
+					"weight": 1
+				},
+				{
+					"type": "loot_table",
+					"name": "bcs:battle_royale/plugin/weapon/melee_weapon/crowbar",
+					"weight": 2
+				},
+				{
+					"type": "loot_table",
+					"name": "bcs:battle_royale/plugin/weapon/melee_weapon/machete",
+					"weight": 3
+				},
+				{
+					"type": "loot_table",
+					"name": "bcs:battle_royale/plugin/weapon/melee_weapon/sickle",
+					"weight": 3
+				}
+			]
+		}
+	]
+}

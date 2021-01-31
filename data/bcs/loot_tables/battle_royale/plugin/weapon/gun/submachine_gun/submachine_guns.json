@@ -1,0 +1,29 @@
+{
+	"pools": [
+		{
+			"rolls": 1,
+			"entries": [
+				{
+					"type": "loot_table",
+					"name": "bcs:battle_royale/plugin/weapon/gun/submachine_gun/micro_uzi",
+					"weight": 1
+				},
+				{
+					"type": "loot_table",
+					"name": "bcs:battle_royale/plugin/weapon/gun/submachine_gun/tommy_gun",
+					"weight": 1
+				},
+				{
+					"type": "loot_table",
+					"name": "bcs:battle_royale/plugin/weapon/gun/submachine_gun/ump9",
+					"weight": 1
+				},
+				{
+					"type": "loot_table",
+					"name": "bcs:battle_royale/plugin/weapon/gun/submachine_gun/vector",
+					"weight": 1
+				}
+			]
+		}
+	]
+}

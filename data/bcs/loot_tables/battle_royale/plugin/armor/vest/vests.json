@@ -1,0 +1,24 @@
+{
+	"pools": [
+		{
+			"rolls": 1,
+			"entries": [
+				{
+					"type": "loot_table",
+					"name": "bcs:battle_royale/plugin/armor/vest/vest_lv.3",
+					"weight": 1
+				},
+				{
+					"type": "loot_table",
+					"name": "bcs:battle_royale/plugin/armor/vest/vest_lv.2",
+					"weight": 2
+				},
+				{
+					"type": "loot_table",
+					"name": "bcs:battle_royale/plugin/armor/vest/vest_lv.1",
+					"weight": 3
+				}
+			]
+		}
+	]
+}

@@ -1,0 +1,97 @@
+{
+	"pools": [
+		{
+			"rolls": {
+				"min": 0,
+				"max": 1
+			},
+			"entries": [
+				{
+					"type": "loot_table",
+					"name": "bcs:battle_royale/plugin/armor/clothes",
+					"weight": 1
+				}
+			]
+		},
+		{
+			"rolls": 1,
+			"entries": [
+				{
+					"type": "loot_table",
+					"name": "bcs:battle_royale/plugin/armor/helmet/helmets",
+					"weight": 1
+				},
+				{
+					"type": "loot_table",
+					"name": "bcs:battle_royale/plugin/armor/vest/vests",
+					"weight": 1
+				},
+				{
+					"type": "loot_table",
+					"name": "bcs:battle_royale/plugin/weapon/melee_weapon/melee_weapons",
+					"weight": 2
+				},
+				{
+					"type": "loot_table",
+					"name": "bcs:battle_royale/plugin/weapon/throwing_weapon/throwing_weapons",
+					"weight": 2
+				},
+				{
+					"type": "item",
+					"name": "minecraft:air",
+					"weight": 3
+				},
+				{
+					"type": "loot_table",
+					"name": "bcs:battle_royale/plugin/ammo/ammo",
+					"weight": 3
+				},
+				{
+					"type": "loot_table",
+					"name": "bcs:battle_royale/plugin/recovery_item/recovery_items",
+					"weight": 3
+				}
+			]
+		},
+		{
+			"rolls": 1,
+			"entries": [
+				{
+					"type": "loot_table",
+					"name": "bcs:battle_royale/plugin/ammo/ammo",
+					"weight": 1
+				},
+				{
+					"type": "loot_table",
+					"name": "bcs:battle_royale/plugin/armor/helmet/helmets",
+					"weight": 1
+				},
+				{
+					"type": "loot_table",
+					"name": "bcs:battle_royale/plugin/armor/vest/vests",
+					"weight": 1
+				},
+				{
+					"type": "loot_table",
+					"name": "bcs:battle_royale/plugin/recovery_item/recovery_items",
+					"weight": 1
+				},
+				{
+					"type": "loot_table",
+					"name": "bcs:battle_royale/plugin/weapon/melee_weapon/melee_weapons",
+					"weight": 1
+				},
+				{
+					"type": "loot_table",
+					"name": "bcs:battle_royale/plugin/weapon/throwing_weapon/throwing_weapons",
+					"weight": 1
+				},
+				{
+					"type": "loot_table",
+					"name": "bcs:battle_royale/plugin/weapon/gun/guns",
+					"weight": 3
+				}
+			]
+		}
+	]
+}

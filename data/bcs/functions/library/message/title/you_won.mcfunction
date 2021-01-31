@@ -1,2 +1,2 @@
-title @s times 20 600 20
-title @s title {"text":"ＹＯＵ ＷＯＮ ！"}
+title @s times 20 400 20
+title @s title {"text":"YOU WON"}
