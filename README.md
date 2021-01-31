@@ -16,7 +16,7 @@ BasicControlSystem（以降bcs）はf3.0→ 1.0→ renewed1.0という順にナ�
 
 ちなみに、〈./data/bcs〉の古いフォルダ名は〈./data/system〉です。他のデータパックとの競合を避けるために、自分のデータパック名の短縮形を名前空間に設定しています。データパックの名前空間が被ることなんてめったにないと思いますけどね。
 
-* **functionsフォルダ直下：**  
+* **functionsフォルダ直下**  
 functionsフォルダにはgame、library、mainのフォルダがあり、gameにはゲームをするのに必要なコマンド、libraryにはほかのゲームにも使える汎用的なコマンドが入っています。mainにはログイン関連のコマンドが入っています。最新のコミットからは削除されていますが、古いバージョンにはバトロワ以外に、デスマッチのゲームも実装されていました。
 
 | フォルダ名 | 仕様                                                   |
@@ -41,5 +41,5 @@ functionsフォルダにはgame、library、mainのフォルダがあり、game�
 
 libraryフォルダのscoreboardにselect,remove_column変数を用いたコマンドがあるのですが、処理がばかすぎるので見ないでください……
 
-* **control.mcfunction:**  
+* **control.mcfunction**  
 スコアボードの解説を踏まえてcontrol.mcfunctionを見ると、10~12行目のコマンドの意味が分かると思います。game変数が2のとき、バトロワのcontrolが動いています。このバトロワのcontrolを辿っていけば、仕組みが理解できるはずです。あとは頑張ってくだあし。
